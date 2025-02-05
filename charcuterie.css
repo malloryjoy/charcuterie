@@ -16,7 +16,7 @@
 
 /***********UNIVERSAL CONTENT***********/
 body{
-   background-image: url("/yellowbackdrop1.png");
+   background-image: url("/yellowbackdrop.png");
 
    
 }
@@ -142,7 +142,7 @@ button.cbbuttons {
     transform: translate3d(0, 0.5em, -1em);
   }*/
   button.cbbuttons:active {
-    background: #fffff;
+    background: #ffffff;
     transform: translate(0em, 0.75em);
   }
   button.cbbuttons:active::before {
