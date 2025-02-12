@@ -17,11 +17,10 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <!-- Core theme CSS (includes Bootstrap)-->
        <link href="./charcuterie.css" rel="stylesheet" id="stylin" type="text/css">
-      
-
-
+       
+       <script type="text/javascript" src="/charcuterie.js"></script>
+       <script type="text/javascript" src="/cheeseboard.js"></script>
    </head>
-  
    <body>
    
            <nav id="topNav">
@@ -31,25 +30,29 @@
           
            </nav>
           
-
            <section id= "charcuterie-main">
-            <div id="left">
+            <script>
+              let html = 
+              `<div id="left">
               <section id ="cheeseinfo">
                 <h3>Your Cheese</h3>
                 <div class="aboutcheese">
-                <img id="cheesepic" src="https://images.pexels.com/photos/8860297/pexels-photo-8860297.jpeg?w=150"> <p>${cheeseInfo} </p>
-              </div>
-              </section>
-              <section id ="plating">
+                <img id="cheesepic" src="https://images.pexels.com/photos/8860297/pexels-photo-8860297.jpeg?w=150"> <p>Name: ${bigCheese} <br />
+                Flavor Profile: ${cheeseFlavor}<br />
+                Texture:  ${cheeseTexture}<br />
+                &nbsp;
+                ${cheeseInfo}</p></div> </section>` + 
+                `<section id ="plating">
                 <h3>Cheeseboard Plating</h3>
                 <div class="boardsetting">
                 <p>A board made of dark or light wood makes an ideal platter for charcuterie! A marble platter is a pretty alternative as well. </p>
-                <h3 style="font-size:1em; text-align: left;">Best Cheese Knives</h3>
-                <p style="font-size:1em;">Because your board features ${cheese_1}, ${cheese_2}, and ${cheese_3}. You will want to use ${knife_1} to slice ${knife_1_cheese} and ${knife_2} to slice ${knife_2_cheese}. ${knife_3} can also be used to spread ${cheese} on crackers! </p>
+                <h3 style="font-size:1.5em; text-align: left;">Best Cheese Knives</h3>
+                <p style="font-size:1em;">Because your board features ${bigCheese}, ${compCheese1}, and ${compCheese2}, you will want to use ${knife1} to slice ${knife1cheese} and ${knife2} to slice ${knife2cheese}. ${knife1} can also be used to spread ${knife1cheese} on crackers! </p>
               </div>
               </section>
-            </div>
-            <div id="right">
+              </section>
+              </div>` +
+              `<div id="right">
               <section id ="charcuterieboard">
                 <h3>Your Board</h3>
                 <div class="boardelements">
@@ -63,12 +66,12 @@
                     <p id="spreadInfo">${spreadInfo}</p>
                   </div>
                   
-                  <button class="accordion" id="meatName">Meat - ${meat_1} or ${meat_2}</button>
+                  <button class="accordion" id="meatName">Meat - ${meatName}</button>
                   <div class="panel">
                     <p id="meatInfo">${meatInfo}</p>
                   </div>
                   
-                  <button class="accordion" id="fruitName">Fruit - ${fruit_1} or ${fruit_2}</button>
+                  <button class="accordion" id="fruitName">Fruit - ${fruitName}</button>
                   <div class="panel">
                     <p id="fruitInfo">${fruitInfo}</p>
                   </div>
@@ -78,24 +81,30 @@
                     <p id="wineInfo">${wineInfo}</p>
                   </div>
 
-                  <button class="accordion" id="cheeseName">Complementary Cheeses - ${cheese_1} and ${cheese_2}</button>
+                  <button class="accordion" id="cheeseName">Complementary Cheeses - ${compCheese1} and ${compCheese2}</button>
                   <div class="panel">
-                    <p id="cheeseInfo">${cheeseInfo}</p>
+                    <p id="cheeseInfo">${compCheeseInfo}</p>
                   </div>
 
-                  <button class="accordion" id="saltyOptions">Salty Supplements - ${salt_1} and ${salt_2}</button>
+                  <button class="accordion" id="saltyOptions">Salty Supplements - ${saltyOptions}</button>
                   <div class="panel">
-                    <p id="saltInfo">${saltInfo}</p>
+                    <p id="saltInfo">${saltyInfo}</p>
                   </div>
 
-                  <button class="accordion" id="sweetName">Sweet Treat - ${sweet_1} and ${sweet_2}</button>
+                  <button class="accordion" id="sweetName">Sweet Treat - ${sweetName}</button>
                   <div class="panel">
                     <p id="sweetInfo">${sweetInfo}</p>
                   </div>
               </div>
               </section>
             </div>
-           </section>
+           </section>`;
+              
+            
+            document.getElementById("charcuterie-main").innerHTML = html;
+          </script>
+          </section>
+
 
            <footer role="contentinfo" id="footer">
           
@@ -114,7 +123,6 @@
  
  
                 </p>
-          
         </footer>
 
         <script>
@@ -134,4 +142,4 @@
           }
           </script>
     </body>
-  
+  </html>
