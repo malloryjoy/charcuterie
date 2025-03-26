@@ -35,8 +35,50 @@
            <section id= "generator-maincontent">
             <section id="searchbox">
                 <label class="searchbar" for="cheese">First, tell us the cheese you want to use.</label><br />
-                <input type="text" id="cheese" name="cheese" required minlength="4" maxlength="100" size="39em" />
+                <div class="dropdown">
+                    <select id="cheeseOptions" name="cheeseOptions">
+                        <option value="default" disabled selected>Select Your Cheese</option>
+                        <option value="american">American</option>
+                        <option value="asiago">Asiago</option>
+                        <option value="brie">Brie</option>
+                        <option value="camembert">Camembert</option>
+                        <option value="cheddar">Cheddar</option>
+                        <option value="agedCheddar">Cheddar, Aged</option>
+                        <option value="smokedCheddar">Cheddar, Smoked</option>
+                        <option value="chevre">Chèvre</option>
+                        <option value="comte">Comte</option>
+                        <option value="emmental">Emmental</option>
+                        <option value="feta">Feta</option>
+                        <option value="fontina">Fontina</option>
+                        <option value="goat">Goat</option>
+                        <option value="gorgonzola">Gorgonzola</option>
+                        <option value="goda">Gouda</option>
+                        <option value="agedGouda">Gouda, Aged</option>
+                        <option value="smokedGouda">Gouda, Smoked</option>
+                        <option value="granapadano">Grana Padano</option>
+                        <option value="gruyere">Gruyere</option>
+                        <option value="halloumi">Halloumi</option>
+                        <option value="havarti">Havarti</option>
+                        <option value="jarlsberg">Jarlsberg</option>
+                        <option value="manchego">Manchego</option>
+                        <option value="montereyJack">Monterey Jack</option>
+                        <option value="mozzarella">Mozzarella</option>
+                        <option value="muenster">Muenster</option>
+                        <option value="parmesan">Parmesan</option>
+                        <option value="parmReg">Parmigiano Reggiano</option>
+                        <option value="pecorino">Pecornio</option>
+                        <option value="provolone">Provolone</option>
+                        <option value="ricotta">Ricotta</option>
+                        <option value="roquefort">Roquefort</option>
+                        <option value="stilton">Stilton</option>
+                        <option value="swiss">Swiss</option>
+                        <option value="wensleydale">Wensleydale</option>
+                   
+                </select>
+                </div>
             </section>
+
+
             <section id="filter"><span id="labelstyle"><h3 style="text-align: left; font-size: 1.25em;">And Make It...</h3></span>
                 <form action ="/filtercharcuterieboard">
                   <label for="vegetarian"><input id="vegetarian" type="checkbox" class="boardfilter"> Vegetarian</label>
@@ -67,4 +109,11 @@
                 </p>
           
         </footer>
+
+        <script>
+            function showCheese(){
+                document.getElementById("cheeseOptions").style.display = "block";
+            }
+        </script>
+        
     </body>

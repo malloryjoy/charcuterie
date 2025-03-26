@@ -168,16 +168,20 @@ button.cbbuttons {
 
   #searchbox{
     margin: 5% 10%;
-    padding: 2em 1.5em;
+    padding: 2em 1.5em 5em 1.5em;
     height:15vh;
     background-color: rgba(15,0,0,.9);
     border-radius: 25px;
 }
 
-input {
-    margin-top: 1em;
-    
-    border-radius: 5px;
+#cheeseOptions{
+  margin-top: 2em;
+  width: 25em;
+  height: 3em;
+}
+
+option{
+  font-family: "Black Han Sans", serif;
 }
 
 #searchbox input {
@@ -186,10 +190,10 @@ input {
 }
 
 #filter {
-  margin: 5% 15%;
-  padding: 1% 2%;
-  height: 20vh;
-  background-color: rgba(15, 0, 0, .9);
+  margin: 5% 10%;
+  padding: 2em 1.5em 5em 1.5em;
+  height:10vh;
+  background-color: rgba(15,0,0,.9);
   border-radius: 25px;
 }
 fieldset input{
@@ -322,7 +326,11 @@ color: #fff !important;
   overflow: hidden;
 }
 
-  @media only screen and (max-width: 600px) {
+
+/*****************************************/
+/***************MOBILE VIEW***************/
+/*****************************************/
+@media only screen and (max-width: 600px) {
     #frameworkbuttons{
      
       margin: 0 auto;
