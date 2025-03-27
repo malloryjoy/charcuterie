@@ -34,6 +34,7 @@
 
            <section id= "generator-maincontent">
             <section id="searchbox">
+                <form id="cheeseSearch">
                 <label class="searchbar" for="cheese">First, tell us the cheese you want to use.</label><br />
                 <div class="dropdown">
                     <select id="cheeseOptions" name="cheeseOptions">
@@ -73,22 +74,21 @@
                         <option value="stilton">Stilton</option>
                         <option value="swiss">Swiss</option>
                         <option value="wensleydale">Wensleydale</option>
-                   
-                </select>
-                </div>
+                    </select>
+                </section>
+
+                <section id="filter">
+                <h3 style="text-align: left; font-size: 1.25em; color:#fff">And Make It...</h3><br />
+                <input type="checkbox" id="filter1" name="filter1" value="vegetarian"><label for="filter1"> Vegetarian</label>
+                <input type="checkbox" id="filter2" name="filter2" value="nutfree"><label for="filter2"> Nut-Free</label>
+                <input type="checkbox" id="filter3" name="filter3" value="zeroproof"><label for="filter3"> Zero-Proof</label>
+                </section>
+                <p style="text-align: center;"><input  type="submit" value="CHEESE IT!" id="startmeup" class="front cbbuttons "/></p> 
+            </div>   
+            </form>
             </section>
-
-
-            <section id="filter"><span id="labelstyle"><h3 style="text-align: left; font-size: 1.25em;">And Make It...</h3></span>
-                <form action ="/filtercharcuterieboard">
-                  <label for="vegetarian"><input id="vegetarian" type="checkbox" class="boardfilter"> Vegetarian</label>
-                  <label for="nutfree"><input id="nutfree" type="checkbox" class="boardfilter"> Nut-Free</label>
-                  <label for="zeroproof"><input id="zeroproof" type="checkbox" class="boardfilter"> Zero-Proof</label>
-                </form>
-            </section>
-            <p style="text-align: center;"><button class="cbbuttons" id="startmeup" role ="button"><a href="charcuterieboard.html" aria-label="vanilla"><span class="front">Cheese it!</span></a></button></p> 
-
-           </section>
+        </section>   
+           
 
            <footer role="contentinfo" id="footer">
           
@@ -114,6 +114,15 @@
             function showCheese(){
                 document.getElementById("cheeseOptions").style.display = "block";
             }
+            const form = document.getElementById('cheeseSearch');
+
+            form.addEventListener('submit', (evt) => {
+            evt.preventDefault();
+            const formData = new FormData(form);
+            const params = new URLSearchParams(formData);
+            console.log(params.toString());
+            });
         </script>
+
         
     </body>
