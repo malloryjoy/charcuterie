@@ -111,17 +111,54 @@
         </footer>
 
         <script>
-            function showCheese(){
-                document.getElementById("cheeseOptions").style.display = "block";
-            }
+            
             const form = document.getElementById('cheeseSearch');
 
             form.addEventListener('submit', (evt) => {
-            evt.preventDefault();
-            const formData = new FormData(form);
-            const params = new URLSearchParams(formData);
-            console.log(params.toString());
+                evt.preventDefault();
+                const chosenCheese = document.getElementById('cheeseOptions').value;
+                const vegFilter = document.getElementById('filter1');
+                let vegetarian;
+                let noMeat = vegFilter.checked;
+                if (noMeat){
+                    vegetarian = true;
+                } else{
+                    vegetarian = false;
+                }
+
+                const nutFilter = document.getElementById('filter2');
+                let nutFree;
+                let noNuts = nutFilter.checked;
+                if (noNuts){
+                    nutFree = true;
+                }else{
+                    nutFree = false;
+                }
+
+                const alcFilter = document.getElementById('filter3');
+                let zeroProof;
+                let noSpirits = alcFilter.checked;
+                if (noSpirits){
+                    zeroProof = true;
+                }else{
+                    zeroProof = false;
+                }
+
+
+    
+                const formData = {
+                BigCheese: chosenCheese,
+                isVegetarian: vegetarian,
+                hasNoNuts: nutFree,
+                noWine: zeroProof,
+
+                };
+
+                const submittedData = formData;
+
+                console.log(submittedData);
             });
+
         </script>
 
         
