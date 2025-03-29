@@ -128,6 +128,38 @@ const american = new Cheeseboard(
 );
 
 
+const brie = new Cheeseboard(
+    bigCheese = "Brie",
+    cheeseFlavor = "Earthy and buttery",
+    cheeseTexture = "Creamy with a soft consistency",
+    cheeseInfo = "Originating in France, Brie is often formed in a round mould using whole or semi-skimmed milk. Though delicious as is, Brie is often baked for an extra gooey, easily spreadable cheese for any cheese board!",
+    biscuitName = "Saltines or Bagguette",
+    biscuitInfo = "As Brie is a softer cheese, Saltines (or really any basic water cracker) offer a nice crunch that lets the flavor of the Brie take center stage. For the traditional serving experience, a toasty, crusty baguette makes a great complement to a creamy wedge of Brie.",
+    spreadName = "Honey drizzle or Onion jam",
+    spreadInfo = "Honey is a simple, sweet complement to a the top of a brie. For a savoury flavor profile, a caramelized onion jam adds a salty-but-sour taste that pairs beautifully with a baked Brie!",
+    meatName = "Prosciutto or Salami",
+    meatInfo = "Prosciutto is a lighter, sweeter meat that makes it a perfect match to the buttery Brie. Meanwhile, Salami offers a robust and potent flavor that provides a perfect balance to the creamy nature of Brie!",
+    fruitName = "Stone fruits or berries",
+    fruitInfo = "A sweet and juicy stone fruit, like a peach or a plum, provides a vibrant punch to the earthy Brie. If such fruits are out of season, any berry offers just as vibrant a punch!",
+    compCheese1 = "Manchego",
+    compCheese2 = "Goat Cheese",
+    compCheeseInfo = "Manchego is a harder cheese with a stronger, nuttier flavor profile than Brie. A good goat cheese offers a similar soft texture to Brie, but also provides a new complexity to the flavor profile of your board!",
+    saltyOptions = "Pistachios or Almonds",
+    saltyInfo = "The sweet and nutty flavor of both pistachios and almonds are a beautiful complement to Brie and your complement cheeses.",
+    sweetName = "Chocolate or Candy Corn",
+    sweetInfo = "Brie is so versatile that any chocolate makes a good pairing! Dark chocolate will make for a luxurious combination, but milk chocolate offers a greater flavor balance. White chocolate also offers a nice creamy complement to a Brie! For a bit of a fun and nostalgia, use a Kit Kat to give crunch to a creamy, chocolatey bite! If you're really in the nostalgia zone, Candy Corn's marshmallow-and-vanilla flavor is another great balance to the nutty, somewhat sweet flavor of Brie.",
+    wineName = "Champagne, Riesling, Merlot, Pint Noir",
+    wineInfo = "The bubbles of Champagne or a Riesling add a crispness to the softness of a Brie or a Goat Cheese, while also adding a nice sweetness to a salty Manchego. If bubbles aren't your vibe, a lighter red wine like a Merlot or a Pinot Noir offer a fruiter flavor that will also balance out the creamy nature of Brie and Goat Cheese, as well as the stronger flavors of your Manchego!",
+    knife1 = "Pronged Cheese Knife",
+    knife2 = "Skeleton Knife",
+    knife1cheese = "Brie and Goat Cheese",
+    knife2cheese = "Manchego",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
+
 const cheddar = new Cheeseboard(
     bigCheese = "Cheddar",
     cheeseFlavor = "Salty, buttery, can be sharp",
