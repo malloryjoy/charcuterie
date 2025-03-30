@@ -190,6 +190,36 @@ const cheddar = new Cheeseboard(
     hasWine = true
 );
 
+const comté = new Cheeseboard(
+    bigCheese = "Comté",
+    cheeseFlavor = "Mild, sweet, nutty",
+    cheeseTexture = "Comté is a Semi hard cheese, but can also be flexible!",
+    cheeseInfo = "You know how sparkling wine can only be called 'champagne' if it hails from the 'champagne' region of France? Well, Comté is only produced in the eastern region of France, close to Switzerland! There is a rigorous production process that involves exclusive milk and grading, making it a rare and unique addition to a charcuterie board!",
+    biscuitName = "Honey Crackers or Bagguette",
+    biscuitInfo = "A sweet cracker (maybe even a Graham cracker!) is a great complement to the sweet and nutty flavors of a Comté. The crispy crust of a toasted baguette offers the perfect French combo!",
+    spreadName = "Fig Jam or Chutney",
+    spreadInfo = "Really, fig anything or honey is a light but sweet complement to Comté! A mango or apple chutney gives a nice sweet and savory flavor. ",
+    meatName = "Prosciutto, Salami or Chorizo",
+    meatInfo = "Sweet, mild prosciutto balances the nutty flavor of Comté. Meanwhile, the ultra-salty, occasionally spicy kick of salami or chorizo is an incredible balance to the sweet flavors of Comté!",
+    fruitName = "Apples or Pears",
+    fruitInfo = "A crisp, sweet apple like a Granny Smith or Honeycrisp cuts through the rich flavor of Comté. Pears offer a similar sweet balance to the nuttier flavors of Comté!",
+    compCheese1 = "Brie",
+    compCheese2 = "Manchego",
+    compCheeseInfo = "A soft, creamy Brie is a nice contrast to the semi-hard nature of Comté! Manchego is a similar texture, but offers a saltier flavor than the lighter Brie or sweeter Comté.",
+    saltyOptions = "Cashews or pistachios",
+    saltyInfo = "Both cashews and pistachios offer a creamier crunch, as well as providing a nice earthy flavor to counterbalance the sweeter notes of your cheeses.",
+    sweetName = "Dark Chocolate, Candied Ginger, or Caramels",
+    sweetInfo = "A bold dark chocolate adds a complexity to your flavor profile! The sweet and somewhat spicy nature of candied ginger is an amazing contrast to the nutty nature of Manchego and Comté, while caramels match that nuttiness while enhancing the buttery nature of your Brie.",
+    wineName = "Unoaked Chardonnay, Sauvignon Blanc, Pinot Noir, Beaujolais,",
+    wineInfo = "A hearty Chardonnay (either unoaked or lightly oaked) is sweet with an acidity that will complement the nutty and savory flavors as well as the creamier texturers of your cheeses. A Sauvignon Blanc offers a higher acidity level that brings a good contrast to the richer Manchego and Brie while offering a fresh flavor contrast to your Comté. If you're thinking of a red wine, Pinot Noir offers an earthy balance to the sweeter and creamier flavors on your board, while a Beaujolais provides a juicy sweet contrast to the more savory elements at play.",
+    knife1 = "Narrow plane knife",
+    knife2 = "Pronged knife",
+    knife1cheese = "Comté and Manchego",
+    knife2cheese = "Brie",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
 
 
 
