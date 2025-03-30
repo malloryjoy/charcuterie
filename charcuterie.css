@@ -169,7 +169,7 @@ button.cbbuttons {
   #searchbox{
     margin: 5% 10%;
     padding: 2em 1.5em 5em 1.5em;
-    height:15vh;
+    min-height:15vh;
     background-color: rgba(15,0,0,.9);
     border-radius: 25px;
 }
@@ -192,7 +192,7 @@ option{
 #filter {
   margin: 5% 15%;
   padding: 2em 1.5em 5em 1.5em;
-  height:10vh;
+  min-height:10vh;
   background-color: rgba(15,0,0,.9);
   border-radius: 25px;
 }
@@ -312,6 +312,33 @@ input[type=submit]:hover {
 
 /**********CHARCUTERIE BOARD GENERATOR**********/
 
+.newcheese{
+  font-family: "Caprasimo", serif;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.newcheese a{
+  text-decoration: none !important;
+}
+
+.goback .navItem {
+  width: 20em;
+  background-color: transparent !important;
+}
+
+.goback .navItem i {
+    width: 1em;
+    height: 1em;
+    color: #fff;
+    list-style-type: none;
+    background-color: #6a6a6a;
+    border-radius: 25px;
+    margin-right: 1em;
+}
+
+
 #charcuterie-main{
   display: flex;
   margin: 5% 15% 10% 15%;
@@ -403,6 +430,16 @@ color: #fff !important;
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+#badge{
+  font-family: "Caprasimo", serif;
+  font-size: .75em;
+  text-align: center;
+  color: #fff !important; 
+  margin-top: -1em;
+  margin-bottom: 1em;
+  
 }
 
 

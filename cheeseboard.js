@@ -1,4 +1,3 @@
-
 class Cheeseboard {
     constructor(
     bigCheese,
@@ -30,22 +29,22 @@ class Cheeseboard {
     hasMeat,
     hasWine
 ){
-    this.bigCheese = bigCheese,
-    this.cheeseFlavor = cheeseFlavor,
-    this.cheeseTexture = cheeseTexture,
-    this.cheeseInfo = cheeseInfo,
-    this.biscuitName = biscuitName,
-    this.biscuitInfo = biscuitInfo,
-    this.spreadName = spreadName,
-    this.spreadInfo = spreadInfo,
-    this.meatName = meatName,
-    this.meatInfo = meatInfo,
-    this.fruitName = fruitName,
-    this.fruitInfo = fruitInfo,
-    this.compCheese1 = compCheese1,
-    this.compCheese2 = compCheese2,
-    this.compCheeseInfo = compCheeseInfo,
-    this.saltyOptions = saltyOptions,
+    this.bigCheese = bigCheese;
+    this.cheeseFlavor = cheeseFlavor;
+    this.cheeseTexture = cheeseTexture;
+    this.cheeseInfo = cheeseInfo;
+    this.biscuitName = biscuitName;
+    this.biscuitInfo = biscuitInfo;
+    this.spreadName = spreadName;
+    this.spreadInfo = spreadInfo;
+    this.meatName = meatName;
+    this.meatInfo = meatInfo;
+    this.fruitName = fruitName;
+    this.fruitInfo = fruitInfo;
+    this.compCheese1 = compCheese1;
+    this.compCheese2 = compCheese2;
+    this.compCheeseInfo = compCheeseInfo;
+    this.saltyOptions = saltyOptions;
     this.saltyInfo = saltyInfo,
     this.sweetName = sweetName,
     this.sweetInfo = sweetInfo,
@@ -53,8 +52,8 @@ class Cheeseboard {
     this.wineInfo = wineInfo,
     this.knife1 = knife1;
     this.knife2 = knife2;
-    this.knife1cheese = bigCheese,
-    this.knife2cheese = compCheese1,
+    this.knife1cheese = bigCheese;
+    this.knife2cheese = compCheese1;
     this.hasNuts = hasNuts;
     this.hasMeat = hasMeat;
     this.hasWine = hasWine;
@@ -62,7 +61,7 @@ class Cheeseboard {
 
 }
 
-const myBoard = new Cheeseboard(
+const plainBoard = new Cheeseboard(
     bigCheese = "Main Cheese",
     cheeseFlavor = "Cheese has flavor",
     cheeseTexture = "Cheese is often hard, soft, or something in between",
@@ -98,7 +97,7 @@ const myBoard = new Cheeseboard(
 
 const american = new Cheeseboard(
     bigCheese = "American",
-    cheeseFlavor = "Mild and Salty, ",
+    cheeseFlavor = "Mild and Salty",
     cheeseTexture = "Creamy with a semi-soft consistency",
     cheeseInfo = "American cheese is a processed hybrid cheese, typically made with cheddar and colby cheese, and is known and popularized for its versatility. You can find American cheese in sandwiches all around the world, and its low melting point makes it the ideal choice for your next cheeseburger!",
     biscuitName = "Butter Crackers or Pretzels",
@@ -191,7 +190,58 @@ const cheddar = new Cheeseboard(
     hasWine = true
 );
 
-console.log(hasWine);
+
+
+
+
+//<script src ="/vanilla1.html"></script>
+
+
+//console.log(hasWine);
+
+//let yourCheese;
+
+//if (cheeseData.bigCheese = "american"){
+    //yourCheese = myBoard;
+    //return yourCheese;
+//} else{
+    //yourCheese = american;
+    //return yourCheese;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<script src ="/vanilla1.html"></script>
+
+
+//console.log(hasWine);
+
+//let yourCheese;
+
+//if (cheeseData.bigCheese = "american"){
+    //yourCheese = myBoard;
+    //return yourCheese;
+//} else{
+    //yourCheese = american;
+    //return yourCheese;
+//}
+
+
+
 
 
 

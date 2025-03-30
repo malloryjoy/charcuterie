@@ -17,8 +17,9 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <!-- Core theme CSS (includes Bootstrap)-->
        <link href="./charcuterie.css" rel="stylesheet" id="stylin" type="text/css">
-      
-
+       
+       <script type="text/javascript" src="/cheeseboard.js"></script>
+        
 
    </head>
   
@@ -83,7 +84,7 @@
                 <input type="checkbox" id="filter2" name="filter2" value="nutfree"><label for="filter2"> Nut-Free</label>
                 <input type="checkbox" id="filter3" name="filter3" value="zeroproof"><label for="filter3"> Zero-Proof</label>
                 </section>
-                <p style="text-align: center;"><input  type="submit" value="CHEESE IT!" id="startmeup" class="front cbbuttons "/></p> 
+                <p style="text-align: center;"><a href="/charcuterieboard.html"><input  type="submit" value="CHEESE IT!" id="startmeup" class="front cbbuttons "/></a></p> 
             </div>   
             </form>
             </section>
@@ -111,7 +112,8 @@
         </footer>
 
         <script>
-            
+
+            //////////////////
             const form = document.getElementById('cheeseSearch');
 
             form.addEventListener('submit', (evt) => {
@@ -146,18 +148,81 @@
 
 
     
-                const formData = {
-                BigCheese: chosenCheese,
+                const cheeseData = {
+                bigCheese: chosenCheese,
                 isVegetarian: vegetarian,
                 hasNoNuts: nutFree,
                 noWine: zeroProof,
 
                 };
 
-                const submittedData = formData;
+                const submittedData = cheeseData;
 
                 console.log(submittedData);
+
+
+                let theCheese = cheeseData.bigCheese;
+
+                console.log("You have selected " + theCheese + ".");
+               
+               
+                let myBoard;
+
+
+                    if (theCheese === "american"){
+                       console.log("hello friend!");
+                       myBoard = american;
+                        
+                    } else if (theCheese ==="brie"){
+                        myBoard = brie;
+                    } else if (theCheese === "cheddar"){
+                        myBoard = cheddar;
+                    }
+                    else {
+                        console.log("hiya pal!");
+                        myBoard = 13;
+                        
+                    }
+                
+                    
+
+                    if (cheeseData.isVegetarian === true){
+                        myBoard.hasMeat = false;
+                    } else{
+                        myBoard.hasMeat = true;
+                    }
+
+                    if (cheeseData.hasNoNuts === true && theCheese !== "american"){
+                        myBoard.hasNuts = false;
+                    } else{
+                        myBoard.hasNuts = true;
+                    }
+
+                    if (cheeseData.noWine === true){
+                        myBoard.hasWine = false;
+                    } else {
+                        myBoard.hasWine = true;
+                    }
+
+
+                
+
+                console.log(myBoard);
+
+                if (myBoard){
+                        localStorage.setItem("myBoard", JSON.stringify(myBoard));
+                        window.location.href = "/charcuterieboard.html";
+                    } else{
+                        console.error("There has been a murder", cheeseData)
+                    }
+                window.location.href = "/charcuterieboard.html";
+
+                 
+
+                
             });
+
+            
 
         </script>
 
