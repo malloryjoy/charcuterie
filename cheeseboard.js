@@ -222,6 +222,38 @@ const comté = new Cheeseboard(
 );
 
 
+const feta = new Cheeseboard(
+    bigCheese = "Feta",
+    cheeseFlavor = "Mild, salty, briny",
+    cheeseTexture = "Feta is a soft, crumbly cheese.",
+    cheeseInfo = "Feta hails from Greece, making it a popular ingredient in Caesar salad (just kidding!). Feta is one of the world's oldest cheeses, getting a mention in Homer's 'The Odyssey'! ",
+    biscuitName = "Multigrain Crackers or Pita",
+    biscuitInfo = "The salty crunch of a seedy cracker is a lovely complement to the creamy tangy flavors of Feta. If you really want to lean into the Greek vibes, you obviously can't go wrong with pita chips or even just warm fresh pita!",
+    spreadName = "Tapenade or Honey",
+    spreadInfo = "A cousin to the pesto, tapenade is an olive based dip that adds an equally briny and tangy flavor to the feta. A honey drizzle allows for a sweeter flavor combo!",
+    meatName = "Prosciutto, Soppressata or Capicolla",
+    meatInfo = "The delicate sweet flavors of prosciutto make a lovely counterbalance to the salty and tangy Feta. Soppressata adds a decent amount of fat and spice to counterbalance the creaminess of feta, and cappicola offers a richer, more savory depth to your board.",
+    fruitName = "Watermelon or Apricot",
+    fruitInfo = "Watermelon is sweet and light, providing a fantastic contrast to the briny flavors of your cheese. Apricots are sweet and tart, which also contrasts the tangy feta!",
+    compCheese1 = "Brie",
+    compCheese2 = "Manchego",
+    compCheeseInfo = "Brie is a milder, buttery cheese that contrasts the stronger feta. Manchego provides a salty flavor, but also offers a stronger texture!",
+    saltyOptions = "Pistachios and Roasted Cashews",
+    saltyInfo = "Pistachios provide a crunchy yet creamy vibe to your board! A garlic and herb or even an olive oil roasted cashew offers another round of creamy crunch, while also giving a zesty and salty flavor.",
+    sweetName = "Chocolate covered orange peel, Fig Newtons, Honeycomb Toffee, or Berry Gummies",
+    sweetInfo = "Chocolate and orange offers a citrusy sweet contrast to the salty cheeses. Fig Newtons are chewy and sweet, providing a new depth to your flavor profile. Honeycomb Toffee provides a counterbalance with sweet flavors and crunchy texture! Berry gummies brighten up the board with a lighter, sweeter tang!",
+    wineName = "Viognier, Cava, Pinot Noir, Grenache,",
+    wineInfo = "Sweet and acidic is the way to go with the flavors at play with these cheeses! Viognier enhances a creamy brie and the saltier Feta and Manchego. Cava is a sparkling white wine that cuts through the salty Feta and brings out the richer flavors of the Manchego and Brie. Pinot Noir is a classic red that offers a bright and earthy profile, and the boldly fruity and sweet Grenache is a perfect partner to all three cheeses, but especially the Manchego!",
+    knife1 = "Narrow plane knife",
+    knife2 = "Pronged knife",
+    knife1cheese = "Manchego",
+    knife2cheese = "Brie and Feta",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
+
 
 
 //<script src ="/vanilla1.html"></script>
