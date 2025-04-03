@@ -52,8 +52,8 @@ class Cheeseboard {
     this.wineInfo = wineInfo,
     this.knife1 = knife1;
     this.knife2 = knife2;
-    this.knife1cheese = bigCheese;
-    this.knife2cheese = compCheese1;
+    this.knife1cheese = knife1cheese;
+    this.knife2cheese = knife2cheese;
     this.hasNuts = hasNuts;
     this.hasMeat = hasMeat;
     this.hasWine = hasWine;
@@ -164,7 +164,7 @@ const cheddar = new Cheeseboard(
     cheeseFlavor = "Salty, buttery, can be sharp",
     cheeseTexture = "Cheddar is often semi-hard, but easy to crumble!",
     cheeseInfo = "Originating from the eponymous village of Cheddar in Somerset, cheddar as we know it was modernized in the 1800s by dairyman Joseph Harding. Cheddar is one of the world's most popular cheeses, and is a charcuterie board staple! Wisconsin-ites are proud to share their place at number one for cheddar production in the US, but don't sleep on Vermont's Cabot cheddar!",
-    biscuitName = "Multi-grain or Herby Crackers",
+    biscuitName = "Classic or Herby Crackers",
     biscuitInfo = "To best match that somewhat nutty, sharp flavor of cheddar, go with a classic Ritz or even a Wheat Thin! If you'd like to elevate your palate, a fruity toast or crisp pairs well, too.",
     spreadName = "Apricot Jam or Dijon (spicy) Mustard",
     spreadInfo = "A light, fruity jam like apricot is a great complement to a sharp cheddar cheese. Meanwhile, the tangy and occasionally spicy flavors of a mustard add great balance to a salty cheese like cheddar.",
@@ -189,6 +189,39 @@ const cheddar = new Cheeseboard(
     hasMeat = true,
     hasWine = true
 );
+
+
+const chévre = new Cheeseboard(
+    bigCheese = "Chévre",
+    cheeseFlavor = "Tangy, bright, with a hint of citrus",
+    cheeseTexture = "Chévre is classified as a soft cheese, though aged variations can be firmer and crumbly!",
+    cheeseInfo = "Is this the Greatest cheese Of All Time? It's certainly a contender, as chévre is simply the French word for 'GOAT cheese'!",
+    biscuitName = "Multi-grain crackers or Crusty baguette",
+    biscuitInfo = "The tangy flavors of goat cheese are greatly balanced by the nuttiness of a multigrain or well-seeded biscuit. Meanwhile, a thick, crusty bread like a baguette makes a fine serving bite for a creamy cheese like chévre.",
+    spreadName = "Fig Jam or Honey",
+    spreadInfo = "Figs provide a rich sweet depth to chévre, while a classic honey drizzle adds a lighter, delicately sweet touch!",
+    meatName = "Prosciutto, Salami or Chorizo",
+    meatInfo = "Salty, dry meats like a salami or chorizo are a great contrast to a creamy cheese like chévre. Prosciutto, however, is a lighter, sweeter meat, that will be a beautiful complement to a bright goat cheese!",
+    fruitName = "Raspberries or Pears",
+    fruitInfo = "A bright cheese like chévre calls for fruits with a greater tart factor. Think raspberries, blackberries, or even cherries, if the season calls for it! Meanwhile, pears offer that powerful tart flavor while also giving a crisp contrast to the creamy chévre that you might not find in a softer fruit like a berry.",
+    compCheese1 = "Camembert",
+    compCheese2 = "Gruyére",
+    compCheeseInfo = "Camembert is a signal to others: 'I'm fancy. I know what I'm talking about here. I am a responsible adult who knows what things are.' Because who just picks Camembert? You do, because you know that Camembert offers a creamy texture similar to chévre, but provides a more earthy flavor profile. Meanwhile, Gruyére is a harder cheese in terms of texture, but also offers a nutty, rich flavor that offers a great counterbalance to chévre!",
+    saltyOptions = "Pistachios, Walnuts or Olives",
+    saltyInfo = "Pistachios are sweet, but earthy, adding a creamy and playful complexity to any of the cheeses on your board. In shocking news, walnuts are especially nutty in terms of flavor. It sounds silly, but it's true! It adds an amazing contrast to the creamier cheeses on your board. Lastly, a classic green olive or Kalamata olive provides a salty and briny flavor that will play well with all!",
+    sweetName = "Honeycomb, Berry chocolate truffles, Oreos",
+    sweetInfo = "Honeycomb offers a deeper, richer sweetness than a lighter honey drizzle! If you love your chocolate, a strawberry or raspberry chocolate square or truffle offers a brighter bite to contrast the tangy and nutty cheeses. While Oreos may seem like an out-of-the-box choice, you'll have a major nostalgia factor while also finding a surprising luxury in swiping a bit of chévre on top of the already-present creamy Oreo filling!",
+    wineName = "Sauvignon Blanc, Pinot Grigio, Pinot Noir, Beaujolais",
+    wineInfo = "Dry whites and brighter reds will be your friends with this board! Sauvignon Blanc and Pinot Grigio are crisp but fruity, and their acidity offers a great counterbalance to the tangy cheeses. Meanwhile, Pinot Noir and Beaujolais are bright and fruity, without being overly sweet.",
+    knife1 = "Soft Cheese knife",
+    knife2 = "Chisel knife",
+    knife1cheese = "Chévre and Camembert",
+    knife2cheese = "Gruyére",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const comté = new Cheeseboard(
     bigCheese = "Comté",
