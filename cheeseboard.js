@@ -286,6 +286,37 @@ const feta = new Cheeseboard(
     hasWine = true
 );
 
+const gouda = new Cheeseboard(
+    bigCheese = "Gouda",
+    cheeseFlavor = "Mild, sweet, nutty",
+    cheeseTexture = "Gouda offers a semi hard to hard texture, but is ultimately quite creamy!",
+    cheeseInfo = "Dating as far back as the Middle Ages, Gouda can be found in any flavor you can think of in the cheese shops along the canals of Amsterdam! A versatile cheese, Gouda is almost fudgy in its creaminess, while providing a flavor suitable for both apple butter and crackers, or sliced on top of a burger!",
+    biscuitName = "Multigrain Crackers or Baguette",
+    biscuitInfo = "The salty crunch of a nutty, seedy cracker is a lovely complement to the creamy and nutty flavors of Gouda. If you're working with an Aged Gouda, the caramel flavors make it an even better combination! Meanwhile, baguette slices are chewy and crusty, making for a neutral flavor with great texture that gives the Gouda a chance to shine!",
+    spreadName = "Apple Chutney or Whole Grain Mustard",
+    spreadInfo = "Tangy apple chutney offers a beautiful contrast to the mild and nutty Gouda. Whole Grain mustard offers a savoury, if a bit spicy kick!",
+    meatName = "Prosciutto, Soppressata or Salami",
+    meatInfo = "Salty, delicate prosciutto offers a great complement to a young, creamy Gouda! Meanwhile, saltier cured meats like Soppressata or Salami give a great contrast to the sweeter and nuttier Gouda. If you're a spice fan, using slices of Calabrese Salami offers an extra kick to your board!",
+    fruitName = "Apple or Apricot",
+    fruitInfo = "A crisp, sweet apple like Honeycrisp or Fuji gives a good sweet crunch against creamy and nutty Gouda. Meanwhile, apricots give an even richer sweetness (especially if you're using dried apricots!) while still highlighting the caramelly flavors of Gouda.",
+    compCheese1 = "Brie",
+    compCheese2 = "Sharp Cheddar",
+    compCheeseInfo = "Brie is creamy like Gouda, but both earthier in flavor and softer in texture! Cheddar offers a stronger, saltier depth, but a word of caution: use a sharp cheddar! A milder, younger cheddar will get lost in the flavors of your Gouda!",
+    saltyOptions = "Olives and Almonds",
+    saltyInfo = "Kalamata (black) olives give a tangy, briny kick that pairs lovely with cheddar and Gouda, while green olives are a saltier, bitter flavor that contrasts great with Brie. For a true crunch, almonds are a buttery option with a mild, creamy profile against the cheeses on your board.",
+    sweetName = "Milk Chocolate Squares, Chocolate chip Cookies, Honeycomb, Caramels",
+    sweetInfo = "Classic milk chocolate is a smooth complement to these creamy cheeses! For a hint of nostalgia, chocolate chip cookies are a great, complex contrast to a nutty, creamy cheese like Gouda. The nutty flavors of the cheeses on your board will get a luxurious sweet crunch from honeycomb, while caramels offer a complementing creamy, nutty flavor that adds richness to your board.",
+    wineName = "Riesling, Sauvignon Blanc, Pinot Noir, Merlot,",
+    wineInfo = "A drier, fruit-forward white wine will cut through the richer textures of your cheeses while also providing a sweet counterbalance in flavor. Riesling complements the Brie and Gouda while providing a fruity contrast to Cheddar, and Sauvignon Blanc offers a citrusy palate cleanser! For a red wine pairing, something just as fruity but low in tannins creates an equal counterbalance in flavors and acidity. Pinot Noir's fruitier flavors are a beautiful complement to Gouda and Brie, while meeting a stronger Cheddar without being too overwhelming. Merlot is a bit bolder, but the low acidity makes it an easy fruity complement to all three cheeses.",
+    knife1 = "Narrow plane knife",
+    knife2 = "Flat knife",
+    knife1cheese = "Gouda and Cheddar",
+    knife2cheese = "Brie",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 
 
