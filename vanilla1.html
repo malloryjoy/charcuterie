@@ -172,6 +172,8 @@
                        console.log("hello friend!");
                        myBoard = american;
                         
+                    }  else if (theCheese === "asiago"){
+                        myBoard = asiago;
                     } else if (theCheese ==="brie"){
                         myBoard = brie;
                     } else if (theCheese === "cheddar"){
@@ -184,7 +186,7 @@
                         myBoard = feta;
                     } else if (theCheese === "gouda"){
                         myBoard = gouda;
-                    } else {
+                    }  else {
                         console.log("hiya pal!");
                         myBoard = 13;
                         
@@ -219,7 +221,7 @@
                         localStorage.setItem("myBoard", JSON.stringify(myBoard));
                         window.location.href = "/charcuterieboard.html";
                     } else{
-                        console.error("There has been a murder", cheeseData)
+                        console.error("ERROR. PLEASE TROUBLESHOOT.", cheeseData)
                     }
                 window.location.href = "/charcuterieboard.html";
 

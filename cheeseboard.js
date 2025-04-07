@@ -126,6 +126,37 @@ const american = new Cheeseboard(
     hasWine = true
 );
 
+const asiago = new Cheeseboard(
+    bigCheese = "Asiago",
+    cheeseFlavor = "Sharp, Nutty, and Salty",
+    cheeseTexture = "Semi soft to hard, and can be crumbly!",
+    cheeseInfo = "Asiago is a diverse cheese, providing a different texture depending on its age! Originating in Italy, it is considered a Swiss Alpine cheese, like Gruyére or Comté!",
+    biscuitName = "Rosemary Crackers or Sourdough slices",
+    biscuitInfo = "An herb like Rosemary offers a fragrant balance to the hearty flavor of Asiago. The nuttiness of Asiago also pairs beautifully with the somewhat tangy flavor and chewy texture of Sourdough bread!",
+    spreadName = "Apple butter or olive tapenade",
+    spreadInfo = "Apple butter offers a warm, sweet spice that will give your cheese a nice autumnal vibe! Meanwhile, the salty even briny flavors of tapenade (think hummus, but with olives at its base, not chickpea!) are a perfect complementary flavor to the sharp intensity of Asiago.",
+    meatName = "Soppressata, Prosciutto, Hot Calabrese ",
+    meatInfo = "Soppressata is a nice dry salami that matches the strong salty flavors of Asiago. Prosciutto is a sweeter, lighter meat that offers a great contrast to the texture and flavor of Asiago, while a Calabrese salami provides a fun spicy kick!",
+    fruitName = "Blackberries, Apples or Pears,",
+    fruitInfo = "Blackberries offer a tartness that provides a sweet counterbalance to the sharp saltiness of Asiago! Apples and Pears are just as sweet, but their crisp texture provides a fun new factor to the overall 'mouthfeel' of your board.",
+    compCheese1 = "Brie",
+    compCheese2 = "Smoked Gouda",
+    compCheeseInfo = "Brie is softer and richer in texture. It is a beautiful contrast to the sharper Asiago! Smoked Gouda offers a softer texture as well, but provides a strong flavor that will delight without overwhelming the sharpness of the Asiago.",
+    saltyOptions = "Gherkins, Red Peppers, Castelvetrano Olives",
+    saltyInfo = "Gherkins are like miniature pickles with a strong tart flavor! It's a great match for a sharp cheese like Asiago or the Smoked Gouda. Red Peppers, either roasted or marinated, provide a softer and sweeter flavor that gives room for the cheese to shine. A mild, buttery olive like Castelvetrano provides that same briny taste of a pickle without overwhelming the sharper cheeses.",
+    sweetName = "Spiced Dark Chocolate, Honeycomb, Candied Orange Peel",
+    sweetInfo = "Dark chocolate provides a rich sweet flavor, but adding an orange zest or using a chili infusion provides a new and depthful flavor to your profile! Honeycomb is sweet with an airy crunch, pairing beautifully with your sharp cheeses and even your rich, buttery Brie! A candied orange peel offers a brighter citrus flavor against the sharp cheeses.",
+    wineName = "Riesling, Pinot Grigio, Pinot Noir, Syrah",
+    wineInfo = "Sweeter whites will be your friend with Asiago! A Riesling balances the saltiness of Asiago and the creaminess of Brie, and a Pinot Grigio offers a crisp fruitiness that pairs fantastically with milder cheeses as well as stronger ones. For red wines, a Pinot Noir is light with a fruity touch, while a Syrah is much bolder and offers a deeper, richer sweetness that pairs well with that Smoked Gouda and an Aged Asiago!",
+    knife1 = "Flat knife",
+    knife2 = "Pronged knife",
+    knife1cheese = "Asiago and Smoked Gouda",
+    knife2cheese = "Brie",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const brie = new Cheeseboard(
     bigCheese = "Brie",
