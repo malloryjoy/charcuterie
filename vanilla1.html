@@ -150,7 +150,7 @@
                 const cheeseData = {
                 bigCheese: chosenCheese,
                 isVegetarian: vegetarian,
-                hasNoNuts: nutFree,
+                nutFreeBoard: nutFree,
                 noWine: zeroProof,
 
                 };
@@ -200,11 +200,9 @@
                         myBoard.hasMeat = true;
                     }
 
-                    if (cheeseData.hasNoNuts === true){
+                    if (cheeseData.nutFreeBoard === true){
                         myBoard.hasNuts = false;
-                    } else if (theCheese === "american" || theCheese ==="asiago"){
-                        myBoard.hasNuts = true;
-                    } else (cheeseData.hasNoNuts === false){
+                    } else{
                         myBoard.hasNuts = true;
                     }
 

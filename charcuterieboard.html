@@ -118,12 +118,17 @@
                 
               }
 
-              if (yourBoard.hasNuts === false){
-                document.getElementById("saltyOptions").style.display = "none";
-                document.getElementById("badge").textContent = "NUT FREE";
-              } else{
+              if (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago"){ 
+                document.getElementById("badge").textContent = "NUT FREE";  
+                if (yourBoard.hasNuts === false && yourBoard.bigCheese !== "Asiago" && yourBoard.bigCheese !== "American"){ 
+                  document.getElementById("saltyOptions").style.display = "none";   
+                  console.log("American and Asiago Cheeses already don't have nuts in their board, so this should show up fine")
+                  console.log(yourBoard.bigCheese);
+                } else {
                 
-              }
+                }
+                
+              } 
 
               if (yourBoard.hasWine === false){
                 document.getElementById("wineName").style.display = "none";
