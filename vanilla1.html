@@ -202,7 +202,9 @@
 
                     if (cheeseData.hasNoNuts === true){
                         myBoard.hasNuts = false;
-                    } else{
+                    } else if (theCheese === "american" || theCheese ==="asiago"){
+                        myBoard.hasNuts = true;
+                    } else (cheeseData.hasNoNuts === false){
                         myBoard.hasNuts = true;
                     }
 
