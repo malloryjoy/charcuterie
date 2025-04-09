@@ -146,7 +146,7 @@ As is, this project is a great start for any gourmand! That said, potential grow
 
 Your Name - [@malloryjoycreates](https://instagram.com/malloryjoycreates) - malloryjoy13@gmail.com
 
-Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.com/malloryjoy/charcuterieboard)
+Project Link: [GitHub](https://github.com/malloryjoy/charcuterie)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
