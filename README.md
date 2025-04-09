@@ -89,7 +89,7 @@ This project takes a provided type of cheese and creates a diverse charcuterie b
 * [![Typescript][Typescript.js]][Typescript-url]
 * [![React][React.js]][React-url]
 * [![Angular][Angular.io]][Angular-url]
-* [![CSS][CSS]][Bootstrap-url]
+* [![CSS][CSS.io]][CSS-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,7 +165,7 @@ Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.co
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/malloryjoy/
 [product-screenshot]: screenshot.png
-[Javascript.js]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+[Javascript.js]: https://img.shields.io/badge/javascript-grey?logo=javascript
 [Javascript-url]: https://www.javascript.com/
 [Typescript.js]: https://img.shields.io/badge/typescript.js-000000?style=for-the-badge&logo=typescriptdotjs&logoColor=white
 [Typescript-url]: https://www.typescriptlang.org/
@@ -173,6 +173,6 @@ Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.co
 [React-url]: https://reactjs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
+[CSS.io]: https://img.shields.io/badge/CSS-991ae8?style=for-the-badge&logo=CSS&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 
