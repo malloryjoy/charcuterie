@@ -164,7 +164,7 @@ Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.co
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/malloryjoy/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: screenshot.png
 [Javascript.js]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
 [Javascript-url]: https://www.javascript.com/
 [Typescript.js]: https://img.shields.io/badge/typescript.js-000000?style=for-the-badge&logo=typescriptdotjs&logoColor=white
