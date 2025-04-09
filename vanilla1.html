@@ -176,6 +176,8 @@
                         myBoard = asiago;
                     } else if (theCheese ==="brie"){
                         myBoard = brie;
+                    } else if (theCheese === "camembert"){
+                        myBoard = camembert;
                     } else if (theCheese === "cheddar"){
                         myBoard = cheddar;
                     } else if (theCheese === "chévre"){
@@ -187,8 +189,8 @@
                     } else if (theCheese === "gouda"){
                         myBoard = gouda;
                     }  else {
-                        console.log("hiya pal!");
-                        myBoard = 13;
+                        console.log("Oh dear! There is no board associated with your chosen cheese.");
+                        myBoard = false;
                         
                     }
                 
@@ -220,10 +222,10 @@
                 if (myBoard){
                         localStorage.setItem("myBoard", JSON.stringify(myBoard));
                         window.location.href = "/charcuterieboard.html";
-                    } else{
-                        console.error("ERROR. PLEASE TROUBLESHOOT.", cheeseData)
+                    } else {
+                        console.log("ERROR. PLEASE TROUBLESHOOT.", cheeseData);
                     }
-                window.location.href = "/charcuterieboard.html";
+                //window.location.href = "/charcuterieboard.html";
 
                  
 
