@@ -135,7 +135,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- NOTES -->
 ## Notes
 
-As is, this project is a great start for any gourmand! That said, potential growth for this project could come from a separate "visualizer" section that includes presentation ideas (fanning bread slices, charcuterie flowers, etc.) as well as a brief shopping window for cheese boards and cheese knife sets. In addition, I've created filters for wine-free, nut-free, and meat-free charcuterie boards, but I could also provide a "gluten free" option that eliminates the bread/cracker component! 
+As is, this project is a great start for any gourmand! That said, potential growth for this project could come from a separate "visualizer" section that includes presentation ideas (fanning bread slices, charcuterie flowers, etc.) as well as a brief shopping window for cheese boards and cheese knife sets. In addition, I've created filters for wine-free, nut-free, and meat-free charcuterie boards, but I could also provide a "gluten free" option that eliminates the bread/cracker component! Lastly, I purposefully did not feature bacon jam as a spread/condiment option to better ease the "vegetarian" filter. An advanced filter feature that can eliminate individual items in an option would be a unique way to elevate the custom experience of this generator! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -317,6 +317,8 @@ const comté = new Cheeseboard(
 );
 
 
+
+
 const feta = new Cheeseboard(
     bigCheese = "Feta",
     cheeseFlavor = "Mild, salty, briny",
@@ -379,6 +381,37 @@ const gouda = new Cheeseboard(
     hasWine = true
 );
 
+
+const swiss = new Cheeseboard(
+    bigCheese = "Swiss",
+    cheeseFlavor = "Mild, nutty, savoury",
+    cheeseTexture = "Medium/Semi-Hard",
+    cheeseInfo = "An Alpine cheese, Swiss cheese is used to describe any cheese that resembles Emmental (a cheese from the Emme Valley in Switzerland). Visually distinct for the holes or 'eyes' in the cheese, Swiss cheese is a sandwich classic all over the world!",
+    biscuitName = "Sesame Crackers or Rye Bread",
+    biscuitInfo = "Sesame crackers offer a nutty crunch that complements a Swiss cheese! Meanwhile, Rye bread has an earthy flavor that pairs well with the nutty savoury Swiss.",
+    spreadName = "Caramelized Onion or Fig Jam",
+    spreadInfo = "Swiss cheese is a relatively neutral cheese, without a lot of salt in its flavor profile. As such, a saltier condiment like a caramelized onion jam makes for a great addition to a cheeseboard featuring Swiss! For a truly sweeter flavor against a nutty Swiss cheese, fig jam creates a delightful and sunny contrast. ",
+    meatName = "Prosciutto, Turkey, Salami",
+    meatInfo = "Swiss pairs best with lighter meats or with a strongly contrasting meat. Prosciutto and Turkey offer a sweeter protein flavor, and a salty spicy Salami can add a big flavor boost!",
+    fruitName = "Apples, Pears, Cherries",
+    fruitInfo = "The crisp, sweet flavors of an apple or a pear offer a bright contrast to the nutty, mild Swiss cheese! For an extra punch, cherries offer a deep sweet contrast that is both complex and delightful.",
+    compCheese1 = "Aged Cheddar",
+    compCheese2 = "Fontina",
+    compCheeseInfo = "A sharp cheddar provides a similar texture to Emmental/Swiss, but with a stronger flavor that crumbles well. Meanwhile, Fontina is a much softer cheese with a very strong flavor.",
+    saltyOptions = "Olives or Baby Carrots",
+    saltyInfo = "A briny, soft olive can offer a bold and salty contrast against the neutral Swiss as well as a balance to the stronger flavors of Fontina and Aged Cheddar. Baby carrots are somewhat sweet and crunchy, making for a fantastic and powerful bite!",
+    sweetName = "Chocolate caramels, Fig Newtons, Honeycomb",
+    sweetInfo = "For this board, your best bet for a sweet treat will be a warm, salty-sweet combo or a bright fruity flavor! Milk chocolate with caramel squares pair beautifully with the nutty cheeses here. A Fig Newton (or really, any fruit-flavored cookie!) is a nostalgic burst of fruity sweetness that matches the saltier flavors as well as contrast the neutral ones. Honeycomb provides a rich, caramelly crunch that is a beautiful contrast to the flavors and textures of your cheeses.",
+    wineName = "Sauvignon Blanc, Pinot Grigio, Merlot, Pinot Noir",
+    wineInfo = "Dry whites and low tannin reds will be your friends for this board! A Sauvignon Blanc is a bright, citrusy wine that matches well with the Fontina and the Cheddar, while creating a beautiful contrast in the creamy, nutty Swiss. Pinot Grigio is another light and crispy white wine that will offer your cheese a chance to shine. Merlot and Pinot Noir are both smooth and fruity, making them ideal choices to counterbalance your strong cheeses as well as liven up your neutral cheeses.",
+    knife1 = "Flat or Chisel knife",
+    knife2 = "Cheese Plane",
+    knife1cheese = "Swiss and Aged Cheddar",
+    knife2cheese = "Fontina ",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
 
 
 

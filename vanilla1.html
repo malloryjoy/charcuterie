@@ -49,7 +49,6 @@
                         <option value="smokedCheddar">Cheddar, Smoked</option>
                         <option value="chévre">Chévre</option>
                         <option value="comté">Comté</option>
-                        <option value="emmental">Emmental</option>
                         <option value="feta">Feta</option>
                         <option value="fontina">Fontina</option>
                         <option value="gorgonzola">Gorgonzola</option>
@@ -72,7 +71,7 @@
                         <option value="ricotta">Ricotta</option>
                         <option value="roquefort">Roquefort</option>
                         <option value="stilton">Stilton</option>
-                        <option value="swiss">Swiss</option>
+                        <option value="swiss">Swiss/Emmental</option>
                         <option value="wensleydale">Wensleydale</option>
                     </select>
                 </section>
@@ -188,6 +187,8 @@
                         myBoard = feta;
                     } else if (theCheese === "gouda"){
                         myBoard = gouda;
+                    } else if (theCheese === "swiss"){
+                        myBoard = swiss;
                     }  else {
                         console.log("Oh dear! There is no board associated with your chosen cheese.");
                         myBoard = false;
