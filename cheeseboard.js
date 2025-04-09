@@ -190,6 +190,37 @@ const brie = new Cheeseboard(
 );
 
 
+const camembert = new Cheeseboard(
+    bigCheese = "Camembert",
+    cheeseFlavor = "Strong, rich, and buttery, with an earthy edible rind",
+    cheeseTexture = "Soft",
+    cheeseInfo = "Camembert is a French cheese -- pronounce it as Cam-em-bear! First produced in the eponymously named village in Normandy, Camembert is quite similar to Brie! However, Camembert has a stronger, earthier flavor than Brie, and has a lower milkfat content, making it overall less buttery and creamy by comparison.",
+    biscuitName = "Water crackers or Sourdough slices",
+    biscuitInfo = "With a stronger cheese like Camembert, a neutral cracker like a Saltine or even a Wheat Thin provides a simple platter to let the cheese speak for itself. Sourdough bread slices provide a delightful tang that will not take away from the soft and creamy Camembert.",
+    spreadName = "Apricot or Raspberry Jam",
+    spreadInfo = "A bright, sweet fruit preserve makes a beautiful complement to an earthy, strong cheese like Camembert. Apricot, raspberry, even strawberry preserves are great options!",
+    meatName = "Prosciutto, Salami or Capicolla",
+    meatInfo = "Prosciutto is a sweet, light meat that provides a lovely counterbalance to the creamy, earthy Camembert. Salami offers a drier, savory if mild flavor against Camembert, and Capicolla provides a middle of the road texture with a bit of a saltier smoke flavor!",
+    fruitName = "Apples, Pears, Dried Figs",
+    fruitInfo = "A crisp, sweet apple like a Granny Smith or Honeycrisp offers a sweet acidity to go against the smooth and rich cheese. Pears provide a true sweetness that has a slightly less intense tart flavor than an apple! If you'd like a dried fruit, figs and apricots (if you haven't already used them in a preserve form) offer that same bright flavor that can truly enhance your cheese.",
+    compCheese1 = "Chévre",
+    compCheese2 = "Aged Gouda",
+    compCheeseInfo = "Chévre is a tangy, soft goat cheese that provides a similar texture to Camembert but a brighter, lighter flavor! Meanwhile, Aged Gouda is a firmer cheese that offers another strong flavor, but a different flavor profile than Camembert.",
+    saltyOptions = "Toasted Nuts and Roasted Peppers",
+    saltyInfo = "Smoked Almonds and Toasted Walnuts are great options for bold flavor profiles with these cheeses. Meanwhile, roasted red peppers are soft, sweet, and savory, making for a strong complement to the tangy Chévre and the harder-textured Gouda. The earthy Camembert with a roasted red pepper will offer a bright and salty bite!",
+    sweetName = "Nutella, Vanilla crackers, Turkish Delight",
+    sweetInfo = "Nutella, or really any rich chocolate and nutty combo, provides a rich depth that pairs well with Gouda and Camembert. Meanwhile, vanilla crackers or shortbread cookies (Nilla Wafers, if you're feeling nostalgic!) are a light, sweet crunch that lets your cheese shine. Turkish Delight, a bright, sugary sweet candy, is almost like a fruit gummy and adds an elevated sweet twist to the Chévre and the Camembert.",
+    wineName = "Riesling, Sauvignon Blanc, Merlot, Roscato",
+    wineInfo = "A lighter, sweeter white offers a bright acidity that complements the earthy flavors of your cheese and the brighter sweeter flavors of your accoutrements. Riesling offers a sparkle, and Suavignon Blanc gives crispy and even a bit of that earthy vibe! A soft Merlot (think lower tannins) offers a fruity and rich depth without overpowering your cheeses. If you like the sweet sparkle of a Riesling, a Roscato (Rosé meets Moscato!) pairs beautifully with creamy cheeses and salty meats!",
+    knife1 = "Narrow plane knife",
+    knife2 = "Pronged knife",
+    knife1cheese = "Aged Gouda",
+    knife2cheese = "Camembert and Chévre",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 const cheddar = new Cheeseboard(
     bigCheese = "Cheddar",
     cheeseFlavor = "Salty, buttery, can be sharp",
