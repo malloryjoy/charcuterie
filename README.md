@@ -85,7 +85,7 @@ This project takes a provided type of cheese and creates a diverse charcuterie b
 
 ### Built With
 
-* [![Javascript][Javascript.io]][Javascript-url]
+* [![Javascript][Javascript.js]][Javascript-url]
 * [![Typescript][Typescript.js]][Typescript-url]
 * [![React][React.js]][React-url]
 * [![Angular][Angular.io]][Angular-url]
