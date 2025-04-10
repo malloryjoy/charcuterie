@@ -17,7 +17,7 @@
 /***********UNIVERSAL CONTENT***********/
 body{
    background-image: url("./yellowbackdrop.png");
-
+  background-size: cover;
    
 }
 
@@ -341,7 +341,7 @@ input[type=submit]:hover {
 
 #charcuterie-main{
   display: flex;
-  margin: 5% 15% 10% 15%;
+  margin: 5% 15%;
   
 }
 
@@ -440,6 +440,32 @@ color: #fff !important;
   margin-top: -1em;
   margin-bottom: 1em;
   
+}
+
+.basicFont{
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+#permafacts{
+  margin: auto 15% 5% 15%;
+  padding-top: 2%;
+  padding-left:2%;
+  padding-right: 2%; 
+  padding-bottom: 5%;
+  background-color: rgba(15, 0, 0, .9);
+  border-radius: 25px;
+}
+
+#permafacts h3, #permafacts li{
+  color: #fff;
+}
+
+#permafacts li {
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+#permafacts a{
+  color: #fff !important;
 }
 
 

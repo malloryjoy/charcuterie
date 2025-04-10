@@ -42,20 +42,19 @@
               let html = 
               `<div id="left">
               <section id ="cheeseinfo">
-                <h3>Your Cheese</h3>
+                <h3>${yourBoard.bigCheese}</h3>
                 <div class="aboutcheese">
-                <!--img id="cheesepic" src="https://images.pexels.com/photos/8860297/pexels-photo-8860297.jpeg?w=150"--> <p>Name: ${yourBoard.bigCheese} <br />
-                Flavor Profile: ${yourBoard.cheeseFlavor}<br />
-                Texture:  ${yourBoard.cheeseTexture}<br /><br />
+                <p> Flavor Profile: <span class="basicFont">${yourBoard.cheeseFlavor}</span><br />
+                Texture:  <span class="basicFont">${yourBoard.cheeseTexture}</span><br /><br />
                 &nbsp;
-              <span style="font-size: 22px">About Your Cheese:</span><br />
-                ${yourBoard.cheeseInfo}</p></div> </section>` + 
+              <span style="font-size: 22px">About Your Cheese:</span><br /><span class="basicFont">
+                ${yourBoard.cheeseInfo}</span></p></div> </section>` + 
                 `<section id ="plating">
                 <h3>Cheeseboard Plating</h3>
                 <div class="boardsetting">
-                <p>A board made of dark or light wood makes an ideal platter for charcuterie! A marble platter is a pretty alternative as well. </p>
+                <p><span class="basicFont">A board made of dark or light wood makes an ideal platter for charcuterie! A marble platter is a pretty alternative as well.</span> </p>
                 <h3 style="font-size:1.5em; text-align: left;">Best Cheese Knives</h3>
-                <p style="font-size:1em;">Because your board features ${yourBoard.bigCheese}, ${yourBoard.compCheese1}, and ${yourBoard.compCheese2}, you will want to use a ${yourBoard.knife1} to slice your ${yourBoard.knife1cheese}, and a ${yourBoard.knife2} to slice the ${yourBoard.knife2cheese}! </p>
+                <p style="font-size:1em;"><span class="basicFont">Because your board features ${yourBoard.bigCheese}, ${yourBoard.compCheese1}, and ${yourBoard.compCheese2}, you will want to use a ${yourBoard.knife1} to slice your ${yourBoard.knife1cheese}, and a ${yourBoard.knife2} to slice the ${yourBoard.knife2cheese}! </span></p>
               </div>
               </section>
               </section>
@@ -106,6 +105,7 @@
                   </div>
               </div>
               </section>
+
             </div>
            </section>`;
               
@@ -153,6 +153,17 @@
 
           </script>
           </section>
+          <section id ="permafacts">
+            <h3 style="text-align: center;">Notes on Charcuterie</h3>
+            <ul>
+              <li>The stronger the cheese, the milder the cracker, and vice versa!</li>
+              <li>Grapes have a sweet acidity that make it an ideal palate cleanser. They have a place on ANY AND ALL charcuterie boards!</li>
+              <li>Complementary cheeses offer either a similar texture or a similar flavor. For example: if you have a hard cheese with a mild flavor, pick a softer cheese with a strong flavor and a hard cheese with a mild flavor!</li>
+              <li>For extra points, consider your presentation! Fan out your bread and crackers, or even present your charcuterie meat like a <a href="https://www.youtube.com/shorts/d7PWzIS1U_g" target="_blank" aria-label="Prosciutto rose tutorial (opens in a new window)">flower</a>!</li>
+              <li>Give your board extra holiday vibes with these seasonal flavors: Fresh fruits in the spring, bright berries in the summer, apple and pumpkin butter in the fall, and cranberries in the winter!</li>
+            </ul>
+            </section>
+         
 
 
            <footer role="contentinfo" id="footer">
