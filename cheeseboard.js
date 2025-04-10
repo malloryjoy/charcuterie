@@ -381,6 +381,37 @@ const gouda = new Cheeseboard(
     hasWine = true
 );
 
+const edam = new Cheeseboard(
+    bigCheese = "Edam",
+    cheeseFlavor = "Mild, salty, nutty",
+    cheeseTexture = "Semi Hard",
+    cheeseInfo = "Gouda's best friend! Edam is another Dutch cheese, best recognized for the hearty inedible rind of red surrounding it in most packaging. Unlike Gouda, Edam is quite dry with a milder flavor, while Gouda has a much softer texture and a richer flavor profile.",
+    biscuitName = "Water or Whole Wheat Crackers",
+    biscuitInfo = "For a mild cheese like Edam, a neutral cracker is best to allow the subtler cheese to shine. A whole wheat cracker can add a nice sweeter contrast, if a greater flavor profile is desired!",
+    spreadName = "Honey or Dijon Mustard",
+    spreadInfo = "A dipper of honey provides a sweet counterbalance to Edam! For a hearty kick, Dijon or brown mustard provides a tangy and sharp contrasting flavor.",
+    meatName = "Prosciutto, Cappicola or Salami",
+    meatInfo = "Salty, delicate prosciutto is a great complement to creamy Edam! Cappicola is spicy, without being too intense against a milder cheese. Lastly, a Genoa Salami matches the milder nature of Edam, but also provides a bit of spice!",
+    fruitName = "Stone fruits",
+    fruitInfo = "Apricots, Cherries, Peaches! Brighter, summery fruits offer a delightful sweetness that won't overpower the Edam.",
+    compCheese1 = "Havarti",
+    compCheese2 = "Manchego",
+    compCheeseInfo = "While Edam is a mild semi-hard cheese, Havarti is a mild semi-soft cheese! Manchego is another milder cheese, but the flavor is relatively strong and the texture is much harder than the other cheeses present.",
+    saltyOptions = "Cashews, Almonds, and Pistachios",
+    saltyInfo = "Go nuts! Roasted cashews, almonds, and pistachios will provide an earthy crunch that matches the nutty flavors of Edam and Manchego, while also enhancing the buttery Havarti.",
+    sweetName = "Milk Chocolate Squares, Caramels, Shortbread cookies",
+    sweetInfo = "Classic milk chocolate is a rich complement to all three cheeses! Caramels are a rich, sweet and salty flavor that pairs well with all three cheeses, while Shortbread cookies are an equally mild flavor that provide a great crunch!",
+    wineName = "Sauvignon Blanc, Pinot Noir, Prosecco, Rosé",
+    wineInfo = "Sauvignon Blanc is a white with a zing! The strong acidity cuts through the Edam and the Havarti, while creating a great contrast against Manchego. Pinot Noir offers a similar acidity cut, while still providing a mild and fruity flavor that pairs well with all three cheeses! A dry Rosé is a great way to meet in the middle and provide fruity and citrusy acidity. Prosecco works too AND provides a bubbly texture as a beautiful palate cleanser!",
+    knife1 = "Skeleton knife",
+    knife2 = "Flat knife",
+    knife1cheese = "Havarti and Manchego",
+    knife2cheese = "Edam",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
     cheeseFlavor = "Rich, salty, nutty and sweet",
