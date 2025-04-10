@@ -381,6 +381,36 @@ const gouda = new Cheeseboard(
     hasWine = true
 );
 
+const stilton = new Cheeseboard(
+    bigCheese = "Stilton",
+    cheeseFlavor = "Rich, salty, nutty and sweet",
+    cheeseTexture = "Semi Soft, crumbly, creamy with age",
+    cheeseInfo = "Stilton is a crumbly blue cheese named after the village of Stilton in England. Despite its namesake, however, Stilton cannot be made IN Stilton! The European Commission has designated only three places where true Stilton can be produced: Derbyshire, Lancastershire, and Nottinghamshire!",
+    biscuitName = "Sourdough Crackers or Honey Oat Crackers",
+    biscuitInfo = "The tangy notes of Sourdough are a lovely match to the stronger flavors of Stilton. Stilton is a saltier cheese, so pairing with a cracker with a sweeter flavor (or even a Digestive biscuit) makes for a beautiful flavor profile!",
+    spreadName = "Caramelized Onion or Fig Jam",
+    spreadInfo = "Caramelized Onion jam is sweet, savoury, and rich... just like Stilton! For a sweeter contrast, Fig Jam provides a bright sweetness that is just as rich. ",
+    meatName = "Prosciutto, Salami, Roast Beef",
+    meatInfo = "A fatty, salty meat like Prosciutto pairs well with the tangy flavors of Stilton! For a counterbalance, a rich, sweet dry cured meat like Genoa Salami is a great match. For a gold star pairing, roast beef slices are a savoury complement to the sharper Stilton.",
+    fruitName = "Blackberries, Pears, Apricots",
+    fruitInfo = "A bright, tart berry provides a fantastic counter flavor against a strong cheese like Stilton. Pears are a classic, if subtler approach! Apricots, either fresh or dried, offer a tangy sweetness that makes it ideal for Stilton.",
+    compCheese1 = "Brie",
+    compCheese2 = "Parmesan",
+    compCheeseInfo = "The best cheeseboards offer a diverse portfolio of tastes and textures. Brie is a softer cheese, like Stilton, but offers a milder, buttery flavor against the strong Stilton. Meanwhile, Parmesan is another stronger flavor, with nutty notes, but is a much harder cheese by way of texture!",
+    saltyOptions = "Walnuts or Kalamata Olives",
+    saltyInfo = "Walnuts have a good crunch, as well as a good bitterness, allowing the Brie and the Stilton to really shine! Meanwhile, Kalamata olives are a salty punch that makes a good match for the Parmesan and the Stilton.",
+    sweetName = "Meringue, Fruit Gummies, Dark Chocolate Squares",
+    sweetInfo = "Lighter desserts are a better bet against the stronger cheeses present. Meringues are sweet and light with a great crunch! Fruit gummies offer a bit more punch, while still being a brighter counterbalance. If you truly want a rich, depthful plate, dark chocolate/semisweet chocolate squares (at least 70%, but no more than 85%) will make for an incredible counterbalance without overwhelming the senses.",
+    wineName = "Riesling, Brut Champagne, Port, Pinot Noir",
+    wineInfo = "Dry and sparkly whites are a great complement to the stronger, salty cheeses here. The sweetness of Riesling balances the salts, and the bubbles of a champagne are a great palate cleanser! For reds, a fruit forward, sweet red wine is a fantastic balance against the flavors at play. Pinot Noir is always a winner with its blooming fruit flavors, without being too dry. A dessert wine, like a Tawny Port, is a classic Stilton pairing that will also match the richness of Brie and the strength of Parmesan!",
+    knife1 = "Pronged knife",
+    knife2 = "Spade or Heart Knife",
+    knife1cheese = "Brie and Stilton",
+    knife2cheese = "Parmesan",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
 
 const swiss = new Cheeseboard(
     bigCheese = "Swiss",
@@ -407,7 +437,7 @@ const swiss = new Cheeseboard(
     knife1 = "Flat or Chisel knife",
     knife2 = "Cheese Plane",
     knife1cheese = "Swiss and Aged Cheddar",
-    knife2cheese = "Fontina ",
+    knife2cheese = "Fontina",
     hasNuts = false,
     hasMeat = true,
     hasWine = true
