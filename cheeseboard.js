@@ -158,6 +158,38 @@ const asiago = new Cheeseboard(
 );
 
 
+const boursin = new Cheeseboard(
+    bigCheese = "Boursin",
+    cheeseFlavor = "Herby and buttery",
+    cheeseTexture = "Creamy with a soft and crumbly consistency",
+    cheeseInfo = "A cheese for more modern times, Boursin was first developed in Normandy post WWII. The cheese gets its name from its creator, cheesemaker François Boursin, who derived his recipe from a dinner party dish in which guests would add herbs to a fresh cheese.",
+    biscuitName = "Plain or Rosemary Crackers",
+    biscuitInfo = "Boursin has a strong flavor, so choose a cracker that lets the cheese speak for itself! A basic buttery or water cracker is an ideal base for Boursin, but a Rosemary cracker adds a complementary herbal flavor!",
+    spreadName = "Honey drizzle or Fig jam",
+    spreadInfo = "Honey is a simple, sweet complement to the herby and creamy Boursin. For a more complex flavor, a fig jam is another contrasting sweet spread but far more rich!",
+    meatName = "Prosciutto or Salami",
+    meatInfo = "Prosciutto is a salty, fatty meat that pairs well with creamy and herby Boursin! Meanwhile, a dry, cured meat like Salami offers that same salty flavor but an incredible contrast with the creamy cheese.",
+    fruitName = "Apples or berries",
+    fruitInfo = "Granny Smith apples provide a tartness that provides a counterbalance to the salty flavors of Boursin, while Honeycrisp apples offer a sweeter flavor profile. Blackberries and raspberries are an even brighter burst of flavor that can also cut through the thick and creamy Boursin!",
+    compCheese1 = "Manchego",
+    compCheese2 = "Gouda",
+    compCheeseInfo = "Manchego is a harder cheese with a stronger, nuttier flavor profile. Gouda is a happy medium in firmness, while also providing a creamy and mellow flavor that is slightly sweet. These three cheeses are diverse in flavor and texture: a charcuterie dream!",
+    saltyOptions = "Olives",
+    saltyInfo = "The salty, briny nature of olives make them a winner on this board! Castelvetrano olives are buttery and mild; Kalamata olives are a bit bolder and make for a complex pairing with Manchego and Gouda; Marinated olives with herbs and garlic are a natural pairing with herby Boursin!",
+    sweetName = "Fruit Gummies, Fruit Chocolates, Fig Newtons",
+    sweetInfo = "Fruity flavored gummies are bright and chewy, making for a complex yet sweet flavor profile! Dark chocolate with raspberry or even dipped chocolate orange zest provides that fruity tang with a pleasing chocolate touch! Fig Newtons are a nostalgic fruit cookie that provides a contrasting sweetness and a softer texture.",
+    wineName = "Champagne, Sauvignon Blanc, Pinot Noir, Beaujolais",
+    wineInfo = "The bubbles of Champagne add a celebratory vibe and make a great palate cleanser between the contrasting flavors. Sauvignon Blanc is a fantastic match for your Boursin, with its vibrant flavor elevating the garlic and herbs in the cheese while also providing a sweet acidity against the Gouda and the Manchego. For reds, a Pinot Noir is fruit forward and somewhat sweet, and will not overwhelm the flavors of any cheeses on your board. Beaujolais is even sweeter and offers a fresher, brighter flavor as a counterbalance to all three cheeses!",
+    knife1 = "Narrow Plane Knife",
+    knife2 = "Spreader Knife",
+    knife1cheese = "Manchego and Gouda",
+    knife2cheese = "Boursin",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
+
 const brie = new Cheeseboard(
     bigCheese = "Brie",
     cheeseFlavor = "Earthy and buttery",
@@ -168,7 +200,7 @@ const brie = new Cheeseboard(
     spreadName = "Honey drizzle or Onion jam",
     spreadInfo = "Honey is a simple, sweet complement to a the top of a brie. For a savoury flavor profile, a caramelized onion jam adds a salty-but-sour taste that pairs beautifully with a baked Brie!",
     meatName = "Prosciutto or Salami",
-    meatInfo = "Prosciutto is a lighter, sweeter meat that makes it a perfect match to the buttery Brie. Meanwhile, Salami offers a robust and potent flavor that provides a perfect balance to the creamy nature of Brie!",
+    meatInfo = "Prosciutto is a salty, fatty meat that makes it a perfect match to the buttery Brie. Meanwhile, Salami offers a robust and potent flavor that provides a perfect balance to the creamy nature of Brie!",
     fruitName = "Stone fruits or berries",
     fruitInfo = "A sweet and juicy stone fruit, like a peach or a plum, provides a vibrant punch to the earthy Brie. If such fruits are out of season, any berry offers just as vibrant a punch!",
     compCheese1 = "Manchego",
