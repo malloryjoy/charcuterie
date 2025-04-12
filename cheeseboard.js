@@ -316,6 +316,37 @@ const chévre = new Cheeseboard(
     hasWine = true
 );
 
+const colby = new Cheeseboard(
+    bigCheese = "Colby",
+    cheeseFlavor = "Mild, buttery, sweet",
+    cheeseTexture = "Semi-hard",
+    cheeseInfo = "Named for the city in Wisconsin, Colby is a popular feature in sandwiches, salads, and yes, cheeseboards! ",
+    biscuitName = "Multi-grain crackers or Butter Crackers",
+    biscuitInfo = "The nuttiness and crisp texture of mult-grain crackers are a smooth complement to Colby, while butter crackers are a perfect match in flavor to Colby, making for a melt-in-your-mouthfeel!",
+    spreadName = "Fig Jam or Caramelized Onion Jam",
+    spreadInfo = "Figs provide a rich sweet depth to Colby, while caramelized onion adds a sweet and savoury flavor!",
+    meatName = "Prosciutto, Salami, Soppressata",
+    meatInfo = "Prosciutto is delicate, salty, and savory, pairing nicely with the sweet and creaminess of Colby. Salami is peppery and fatty, providing a rich contrast to the mellow Colby! Soppressata is a stronger flavor, but won't overwhelm the Colby in neither texture nor flavor.",
+    fruitName = "Strawberries, Blueberries, Dried Mango ",
+    fruitInfo = "Strawberries are juicy, somewhat tart, and very sweet! Blueberries are just as bright, but a milder sweetness that won't counterbalance your Colby. For a drier mouthfeel, slices of dried mango add a tropical punch that matches up brilliantly with Colby!",
+    compCheese1 = "Havarti",
+    compCheese2 = "Monterey Jack",
+    compCheeseInfo = "Havarti matches Colby's creamy and buttery mouthfeel, but adds a new texture and a bit of a tang in flavor. Meanwhile, Monterey Jack is another semi-soft cheese (like Havarti!) but has a very similar flavor profile to Colby.",
+    saltyOptions = "Pickled Vegetables",
+    saltyInfo = "Pickles, carrots, or even okra offer a briny tang that offers a new flavor against the mild cheeses on your board! Plus, you'll find new textures and additional pops of color.",
+    sweetName = "Honeycomb and brownies",
+    sweetInfo = "Honeycomb offers a rich sweet and salty flavor, as well as a delightful crunch! For a spot of chocolate, a brownie provides a fudgey richness that complements the mild, creamy cheeses on your board.",
+    wineName = "Chardonnay, Riesling, Pinot Noir, Roscato",
+    wineInfo = "A buttery white like Chardonnay complements the creaminess of Colby as well as the Havarti and the Monterey Jack. Riesling is just as crisp, but with a true sweet flavor that balances the mild richness of your cheeses and balances the saltier meats on your board. For reds, another sweet option is a Roscato, which adds an ultra-indulgent fruit flavor and a bit of sparkle! Pinot Noir is just as sweet, but adds a new depth that won't overpower any of the accoutrements on your board.",
+    knife1 = "Narrow Plane Knife",
+    knife2 = "Cheese Fork",
+    knife1cheese = "all three cheeses",
+    knife2cheese = "Colby and Monterey Jack-- but you won't need to slice with this fork, you'll just use it to serve up pre-cubed Colby and Monterey Jack cheese!",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const comté = new Cheeseboard(
     bigCheese = "Comté",
