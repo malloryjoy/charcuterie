@@ -45,16 +45,17 @@
                 <h3>${yourBoard.bigCheese}</h3>
                 <div class="aboutcheese">
                 <p> Flavor Profile: <span class="basicFont">${yourBoard.cheeseFlavor}</span><br />
-                Texture:  <span class="basicFont">${yourBoard.cheeseTexture}</span><br /><br />
-                &nbsp;
-              <span style="font-size: 22px">About Your Cheese:</span><br /><span class="basicFont">
+                Texture:  <span class="basicFont">${yourBoard.cheeseTexture}</span></p><br />
+              
+               <p><span style="font-size: 22px">About Your Cheese:</span><br /><span class="basicFont">
                 ${yourBoard.cheeseInfo}</span></p></div> </section>` + 
                 `<section id ="plating">
                 <h3>Cheeseboard Plating</h3>
                 <div class="boardsetting">
-                <p><span class="basicFont">A board made of dark or light wood makes an ideal platter for charcuterie! A marble platter is a pretty alternative as well.</span> </p>
-                <h3 style="font-size:1.5em; text-align: left;">Best Cheese Knives</h3>
-                <p style="font-size:1em;"><span class="basicFont">Because your board features ${yourBoard.bigCheese}, ${yourBoard.compCheese1}, and ${yourBoard.compCheese2}, you will want to use a ${yourBoard.knife1} to slice your ${yourBoard.knife1cheese}, and a ${yourBoard.knife2} to slice the ${yourBoard.knife2cheese}! </span></p>
+                <p class="basicFont">A board made of dark or light wood makes an ideal platter for charcuterie! A marble platter is a pretty alternative as well.</p> <br />
+                
+                <p><span style="text-align: left; font-size: 22px;">Best Cheese Knives</span><br />
+                <span class="basicFont">Because your board features ${yourBoard.bigCheese}, ${yourBoard.compCheese1}, and ${yourBoard.compCheese2}, you will want to use a ${yourBoard.knife1} to slice your ${yourBoard.knife1cheese}, and a ${yourBoard.knife2} to slice the ${yourBoard.knife2cheese}! </span></p>
               </div>
               </section>
               </section>
@@ -84,11 +85,6 @@
                     <p id="fruitInfo">${yourBoard.fruitInfo}</p>
                   </div>
 
-                  <button class="accordion" id="wineName">Wine - ${yourBoard.wineName}</button>
-                  <div class="panel">
-                    <p id="wineInfo">${yourBoard.wineInfo}</p>
-                  </div>
-
                   <button class="accordion" id="cheeseName">Complementary Cheeses - ${yourBoard.compCheese1} and ${yourBoard.compCheese2}</button>
                   <div class="panel">
                     <p id="cheeseInfo">${yourBoard.compCheeseInfo}</p>
@@ -102,6 +98,11 @@
                   <button class="accordion" id="sweetName">Sweet Treat - ${yourBoard.sweetName}</button>
                   <div class="panel">
                     <p id="sweetInfo">${yourBoard.sweetInfo}</p>
+                  </div>
+
+                  <button class="accordion" id="wineName">Wine - ${yourBoard.wineName}</button>
+                  <div class="panel">
+                    <p id="wineInfo">${yourBoard.wineInfo}</p>
                   </div>
               </div>
               </section>
@@ -119,9 +120,9 @@
               }
               
 
-            if (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago"  || yourBoard.bigCheese === "Boursin" ||   yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Swiss"  || yourBoard.bigCheese === "Wensleydale"){ 
+            if (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago"  || yourBoard.bigCheese === "Boursin" ||   yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss"  || yourBoard.bigCheese === "Wensleydale"){ 
                 document.getElementById("badge").textContent = "NUT FREE";  
-                if (yourBoard.hasNuts === false && yourBoard.bigCheese !== "Asiago" && yourBoard.bigCheese !== "American" && yourBoard.bigCheese !== "Boursin" && yourBoard.bigCheese !== "Colby" && yourBoard.bigCheese !== "Swiss"  && yourBoard.bigCheese !== "Wensleydale"){ 
+                if (yourBoard.hasNuts === false && yourBoard.bigCheese !== "Asiago" && yourBoard.bigCheese !== "American" && yourBoard.bigCheese !== "Boursin" && yourBoard.bigCheese !== "Colby" && yourBoard.bigCheese !== "Fontina" && yourBoard.bigCheese !== "Swiss"  && yourBoard.bigCheese !== "Wensleydale"){ 
                   document.getElementById("saltyOptions").style.display = "none";   
                   console.log("American and Asiago Cheeses already don't have nuts in their board, so this should show up fine")
                   console.log(yourBoard.bigCheese);
@@ -138,13 +139,13 @@
 
               }
 
-              if (yourBoard.hasWine === false && yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin"  ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale") ){
+              if (yourBoard.hasWine === false && yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin"  ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale") ){
                   document.getElementById("badge").textContent = "WINE FREE, NUT FREE, VEGETARIAN";
-              } else if (yourBoard.hasWine === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" || yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
+              } else if (yourBoard.hasWine === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" || yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
                 document.getElementById("badge").textContent = "WINE FREE + NUT FREE";
               } else if (yourBoard.hasWine === false && yourBoard.hasMeat === false) {
                 document.getElementById("badge").textContent = "WINE FREE + VEGETARIAN";
-              } else if (yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
+              } else if (yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
                 document.getElementById("badge").textContent = "VEGETARIAN + NUT FREE";
               } else{
 

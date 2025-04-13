@@ -379,7 +379,36 @@ const comté = new Cheeseboard(
     hasWine = true
 );
 
-
+const edam = new Cheeseboard(
+    bigCheese = "Edam",
+    cheeseFlavor = "Mild, salty, nutty",
+    cheeseTexture = "Semi Hard",
+    cheeseInfo = "Gouda's best friend! Edam is another Dutch cheese, best recognized for the hearty inedible rind of red surrounding it in most packaging. Unlike Gouda, Edam is quite dry with a milder flavor, while Gouda has a much softer texture and a richer flavor profile.",
+    biscuitName = "Water or Whole Wheat Crackers",
+    biscuitInfo = "For a mild cheese like Edam, a neutral cracker is best to allow the subtler cheese to shine. A whole wheat cracker can add a nice sweeter contrast, if a greater flavor profile is desired!",
+    spreadName = "Honey or Dijon Mustard",
+    spreadInfo = "A dipper of honey provides a sweet counterbalance to Edam! For a hearty kick, Dijon or brown mustard provides a tangy and sharp contrasting flavor.",
+    meatName = "Prosciutto, Cappicola or Salami",
+    meatInfo = "Salty, delicate prosciutto is a great complement to creamy Edam! Cappicola is spicy, without being too intense against a milder cheese. Lastly, a Genoa Salami matches the milder nature of Edam, but also provides a bit of spice!",
+    fruitName = "Stone fruits",
+    fruitInfo = "Apricots, Cherries, Peaches! Brighter, summery fruits offer a delightful sweetness that won't overpower the Edam.",
+    compCheese1 = "Havarti",
+    compCheese2 = "Manchego",
+    compCheeseInfo = "While Edam is a mild semi-hard cheese, Havarti is a mild semi-soft cheese! Manchego is another milder cheese, but the flavor is relatively strong and the texture is much harder than the other cheeses present.",
+    saltyOptions = "Cashews, Almonds, and Pistachios",
+    saltyInfo = "Go nuts! Roasted cashews, almonds, and pistachios will provide an earthy crunch that matches the nutty flavors of Edam and Manchego, while also enhancing the buttery Havarti.",
+    sweetName = "Milk Chocolate Squares, Caramels, Shortbread cookies",
+    sweetInfo = "Classic milk chocolate is a rich complement to all three cheeses! Caramels are a rich, sweet and salty flavor that pairs well with all three cheeses, while Shortbread cookies are an equally mild flavor that provide a great crunch!",
+    wineName = "Sauvignon Blanc, Pinot Noir, Prosecco, Rosé",
+    wineInfo = "Sauvignon Blanc is a white with a zing! The strong acidity cuts through the Edam and the Havarti, while creating a great contrast against Manchego. Pinot Noir offers a similar acidity cut, while still providing a mild and fruity flavor that pairs well with all three cheeses! A dry Rosé is a great way to meet in the middle and provide fruity and citrusy acidity. Prosecco works too AND provides a bubbly texture as a beautiful palate cleanser!",
+    knife1 = "Skeleton knife",
+    knife2 = "Flat knife",
+    knife1cheese = "Havarti and Manchego",
+    knife2cheese = "Edam",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
 
 
 const feta = new Cheeseboard(
@@ -408,6 +437,38 @@ const feta = new Cheeseboard(
     knife2 = "Pronged knife",
     knife1cheese = "Manchego",
     knife2cheese = "Brie and Feta",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
+
+const fontina = new Cheeseboard(
+    bigCheese = "Fontina",
+    cheeseFlavor = "Creamy, buttery, nutty, mild funk",
+    cheeseTexture = "Fontina is a Semi-Soft Cheese",
+    cheeseInfo = "Fresh from the Alps, Fontina is an Italian cheese that occasionally has holes in it, like Swiss! If you're a pizza fan, you can find Fontina cheese in your next slice of Quatro Formaggi, which is a four-cheese pizza consisting of Mozzarella, Gorgonzola, Parmesan, and Fontina!",
+    biscuitName = "Seeded Crackers or Baguette Slices",
+    biscuitInfo = "A seeded cracker brings an earthy flavor and a doubly crunchy vibe against the buttery smooth Fontina! A baguette slice is a quieter base, and lends itself well to Fontina's presence in a cheesy pizza!",
+    spreadName = "Raspberry Preserves or Truffle Butter",
+    spreadInfo = "Raspberry Preserves are a sweet presence that counterbalances the savoury notes of Fontina. Meanwhile, a white truffle butter complements the buttery flavors of Fontina, while also adding an earthy flavor to the board!",
+    meatName = "Prosciutto, Soppressata or Capicolla",
+    meatInfo = "The salty, fatty Prosciutto is an incredible counterbalance against creamy and buttery Fontina. Meanwhile Soppressata and Cappicolla add a decent amount of savoury fat as well as a bit of spice and pepper, making it another beautiful counterbalance to mildly sweet and nutty Fontina!",
+    fruitName = "Apples or Strawberries",
+    fruitInfo = "Slices of Honeycrisp or Pink Lady Apples are crisp and slightly tart, making them ideal for a creamy cheese like Fontina! Strawberries are a brighter, juicier fruit that offers a great counterbalance against the milder nature of Fontina.",
+    compCheese1 = "Havarti",
+    compCheese2 = "Aged Gouda",
+    compCheeseInfo = "Havarti is another soft cheese, but with a much milder flavor profile than Fontina! Aged Gouda provides a much firmer texture, with a sharp nutty flavor similar to Fontina but with a sweet, almosts caramel touch!",
+    saltyOptions = "Olives!",
+    saltyInfo = "Castelvetrano olives are a great briny bite for this board. It's buttery and rich, while still providing that salt. Kalamata olives are another great choice, especially with the Aged Gouda and the Fontina, for being extra briny and even a bit more bold a flavor!",
+    sweetName = "Milk Chocolate Truffles, Brownie Bites, Honeycomb",
+    sweetInfo = "Soft and creamy milk chocolate pairs great with the creamy Havarti and Fontina cheeses. A rich, chocolatey brownie bite is a dynamite match for an Aged Gouda, too! For a salty-sweet crunch, honeycomb pairs especially great with Aged Gouda and the Fontina!",
+    wineName = "Chardonnay, Riesling, Zinfandel, Grenache,",
+    wineInfo = "Chardonnay is a buttery white wine that matches the creaminess of Havarti and Fontina, as well as a great counterbalance to the dense and salty Aged Gouda. Riesling is a much sweeter white wine with an acidity that elevates the flavor of the cheese while also cutting through the saltiness. For reds, both Zinfandel and Grenache are rich and juicy, making them ideal matches for a creamy cheese like Havarti and Fontina and standing up well against the Aged Gouda.",
+    knife1 = "Skeleton knife",
+    knife2 = "Flat Blade",
+    knife1cheese = "Fontina",
+    knife2cheese = "Aged Gouda and Havarti",
     hasNuts = true,
     hasMeat = true,
     hasWine = true
@@ -444,36 +505,6 @@ const gouda = new Cheeseboard(
     hasWine = true
 );
 
-const edam = new Cheeseboard(
-    bigCheese = "Edam",
-    cheeseFlavor = "Mild, salty, nutty",
-    cheeseTexture = "Semi Hard",
-    cheeseInfo = "Gouda's best friend! Edam is another Dutch cheese, best recognized for the hearty inedible rind of red surrounding it in most packaging. Unlike Gouda, Edam is quite dry with a milder flavor, while Gouda has a much softer texture and a richer flavor profile.",
-    biscuitName = "Water or Whole Wheat Crackers",
-    biscuitInfo = "For a mild cheese like Edam, a neutral cracker is best to allow the subtler cheese to shine. A whole wheat cracker can add a nice sweeter contrast, if a greater flavor profile is desired!",
-    spreadName = "Honey or Dijon Mustard",
-    spreadInfo = "A dipper of honey provides a sweet counterbalance to Edam! For a hearty kick, Dijon or brown mustard provides a tangy and sharp contrasting flavor.",
-    meatName = "Prosciutto, Cappicola or Salami",
-    meatInfo = "Salty, delicate prosciutto is a great complement to creamy Edam! Cappicola is spicy, without being too intense against a milder cheese. Lastly, a Genoa Salami matches the milder nature of Edam, but also provides a bit of spice!",
-    fruitName = "Stone fruits",
-    fruitInfo = "Apricots, Cherries, Peaches! Brighter, summery fruits offer a delightful sweetness that won't overpower the Edam.",
-    compCheese1 = "Havarti",
-    compCheese2 = "Manchego",
-    compCheeseInfo = "While Edam is a mild semi-hard cheese, Havarti is a mild semi-soft cheese! Manchego is another milder cheese, but the flavor is relatively strong and the texture is much harder than the other cheeses present.",
-    saltyOptions = "Cashews, Almonds, and Pistachios",
-    saltyInfo = "Go nuts! Roasted cashews, almonds, and pistachios will provide an earthy crunch that matches the nutty flavors of Edam and Manchego, while also enhancing the buttery Havarti.",
-    sweetName = "Milk Chocolate Squares, Caramels, Shortbread cookies",
-    sweetInfo = "Classic milk chocolate is a rich complement to all three cheeses! Caramels are a rich, sweet and salty flavor that pairs well with all three cheeses, while Shortbread cookies are an equally mild flavor that provide a great crunch!",
-    wineName = "Sauvignon Blanc, Pinot Noir, Prosecco, Rosé",
-    wineInfo = "Sauvignon Blanc is a white with a zing! The strong acidity cuts through the Edam and the Havarti, while creating a great contrast against Manchego. Pinot Noir offers a similar acidity cut, while still providing a mild and fruity flavor that pairs well with all three cheeses! A dry Rosé is a great way to meet in the middle and provide fruity and citrusy acidity. Prosecco works too AND provides a bubbly texture as a beautiful palate cleanser!",
-    knife1 = "Skeleton knife",
-    knife2 = "Flat knife",
-    knife1cheese = "Havarti and Manchego",
-    knife2cheese = "Edam",
-    hasNuts = true,
-    hasMeat = true,
-    hasWine = true
-);
 
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
