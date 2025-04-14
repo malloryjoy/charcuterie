@@ -120,9 +120,9 @@
               }
               
 
-            if (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago"  || yourBoard.bigCheese === "Boursin" ||   yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss"  || yourBoard.bigCheese === "Wensleydale"){ 
+            if (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago"  || yourBoard.bigCheese === "Boursin" ||   yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Gorgonzola" || yourBoard.bigCheese === "Swiss"  || yourBoard.bigCheese === "Wensleydale"){ 
                 document.getElementById("badge").textContent = "NUT FREE";  
-                if (yourBoard.hasNuts === false && yourBoard.bigCheese !== "Asiago" && yourBoard.bigCheese !== "American" && yourBoard.bigCheese !== "Boursin" && yourBoard.bigCheese !== "Colby" && yourBoard.bigCheese !== "Fontina" && yourBoard.bigCheese !== "Swiss"  && yourBoard.bigCheese !== "Wensleydale"){ 
+                if (yourBoard.hasNuts === false && yourBoard.bigCheese !== "Asiago" && yourBoard.bigCheese !== "American" && yourBoard.bigCheese !== "Boursin" && yourBoard.bigCheese !== "Colby" && yourBoard.bigCheese !== "Fontina" && yourBoard.bigCheese !== "Gorgonzola" && yourBoard.bigCheese !== "Swiss"  && yourBoard.bigCheese !== "Wensleydale"){ 
                   document.getElementById("saltyOptions").style.display = "none";   
                   console.log("American and Asiago Cheeses already don't have nuts in their board, so this should show up fine")
                   console.log(yourBoard.bigCheese);
@@ -139,13 +139,13 @@
 
               }
 
-              if (yourBoard.hasWine === false && yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin"  ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale") ){
+              if (yourBoard.hasWine === false && yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin"  ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Gorgonzola" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale") ){
                   document.getElementById("badge").textContent = "WINE FREE, NUT FREE, VEGETARIAN";
-              } else if (yourBoard.hasWine === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" || yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
+              } else if (yourBoard.hasWine === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" || yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Gorgonzola" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
                 document.getElementById("badge").textContent = "WINE FREE + NUT FREE";
               } else if (yourBoard.hasWine === false && yourBoard.hasMeat === false) {
                 document.getElementById("badge").textContent = "WINE FREE + VEGETARIAN";
-              } else if (yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
+              } else if (yourBoard.hasMeat === false && (yourBoard.hasNuts === false || yourBoard.bigCheese === "American" || yourBoard.bigCheese === "Asiago" || yourBoard.bigCheese === "Boursin" ||  yourBoard.bigCheese === "Colby" || yourBoard.bigCheese === "Fontina" || yourBoard.bigCheese === "Gorgonzola" || yourBoard.bigCheese === "Swiss" || yourBoard.bigCheese === "Wensleydale")) {
                 document.getElementById("badge").textContent = "VEGETARIAN + NUT FREE";
               } else{
 

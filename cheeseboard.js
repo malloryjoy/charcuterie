@@ -474,6 +474,38 @@ const fontina = new Cheeseboard(
     hasWine = true
 );
 
+const gorgonzola = new Cheeseboard(
+    bigCheese = "Gorgonzola",
+    cheeseFlavor = "Creamy, pungent, salty",
+    cheeseTexture = "Soft and crumbly",
+    cheeseInfo = "A famous Italian blue cheese, Gorgonzola takes its name from the village in Milan! Its texture varies from Dolce, which is more delicate and buttery, and Piccante, which is much stronger and more crumbly! Most commonly, Gorgonzola is frequently a key ingredient in many a blue cheese salad dressing.",
+    biscuitName = "Multigrain Crackers or Water Crackers",
+    biscuitInfo = "The salty crunch of a nutty, seedy cracker is a lovely complement to the bolder Gorgonzola. A water cracker is a neutral cracker that really allows the cheese to shine!",
+    spreadName = "Fig Jam or Whole Grain Mustard",
+    spreadInfo = "For a sweeter mouthfeel, Fig Jam is rich and indulgent enough to counterbalance the strong flavors of Gorgonzola. Meanwhile, Whole Grain Mustard offers an earthy texture and an equally sharp flavor that contrasts well with the creamy nature of Gorgonzola.",
+    meatName = "Prosciutto, Calabrese Salami, Pancetta",
+    meatInfo = "Prosciutto is salty while still maintaining a lighter sweetness, ideal against a stronger cheese like Gorgonzola! Calabrese Salami is a hotter meat, creating a fun energy against the creamy Gorgonzola. For a bit of a wild card, Pancetta is quite savory and offers a flavor profile similar to bacon!",
+    fruitName = "Apples, Cherries, or Dried Apricot",
+    fruitInfo = "A crisp, sweet apple like Honeycrisp or Pink Lady gives a good sweet crunch against creamy Gorgonzola. Meanwhile, cherries are bright and tart, making for a great balance against the tangy flavors of Gorgonzola. For a dried fruit, apricot is chewy and and sweet, without being too overwhelming against a strong blue cheese!",
+    compCheese1 = "Brie",
+    compCheese2 = "Manchego",
+    compCheeseInfo = "Brie is creamy like Gorgonzola, but both earthier in flavor and buttery in delivery! Manchego is a firm cheese that also offers a buttery flavor that contrasts well with creamy and powerful Gorgonzola.",
+    saltyOptions = "Olives!",
+    saltyInfo = "Milder olives like Castelvetrano or Picholine offer a salty punch that won't contrast too deeply against the different flavors of each cheese.",
+    sweetName = "Milk Chocolate Squares, Honeycomb, Fruit Gummies",
+    sweetInfo = "Classic milk chocolate is a smooth complement to these creamy cheeses! Honeycomb offers a true crunch, with a salty sweet flavor that is delightful with the Gorgonzola and the Brie while also pairing wonderfully with the salty Manchego.",
+    wineName = "Sauvignon Blanc, Zinfandel, Prosecco",
+    wineInfo = "Sauvignon Blanc is fresh and bright, matching Manchego's brightness and cutting through the Gorgonzola and Brie. Meanwhile, a sweet and fruit forward red like Zinfandel balances the Manchego and the Gorgonzola without overwhelming the flavors of Brie. For a sparkly number, Prosecco is light and sweet, with the bubbles making for the ultimate palate cleanser.",
+    knife1 = "Open blade ",
+    knife2 = "Heart knife",
+    knife1cheese = "Brie and Gorgonzola",
+    knife2cheese = "Manchego",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
+
 const gouda = new Cheeseboard(
     bigCheese = "Gouda",
     cheeseFlavor = "Mild, sweet, nutty",
