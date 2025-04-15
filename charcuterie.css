@@ -425,6 +425,18 @@ color: #fff !important;
   background-color: #ccc; 
 }
 
+.accordion:after {
+  content: '\032C'; 
+  font-size: 1.5em;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2038'; 
+}
+
 .panel {
   padding: 0 18px;
   display: none;
