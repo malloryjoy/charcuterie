@@ -112,13 +112,13 @@ This project was created with Javascript, available with classic Vanilla and thr
 <!-- ROADMAP -->
 ## Roadmap
 
-- [✅] Create Basic Landing Pages (HTML/CSS)
-    - [✅] Welcome Page to choose Javascript framework 
-    - [✅] Page to choose Primary cheese and necessary filters 
-    - [✅] Page to display charcuterie board
-- [✅] "Form" to accept primary cheese provided by user (HTML)
-- [✅] Filter Feature for Form that creates cheeseboards that do not include meat, nuts, or wine pairings (Javascript)
-- [✅] Cheeseboard Generator that creates Cheese Board based off primary cheese provided by the user (Javascript)
+- [x] Create Basic Landing Pages (HTML/CSS)
+    - [x] Welcome Page to choose Javascript framework 
+    - [x] Page to choose Primary cheese and necessary filters 
+    - [x] Page to display charcuterie board
+- [x] "Form" to accept primary cheese provided by user (HTML)
+- [x] Filter Feature for Form that creates cheeseboards that do not include meat, nuts, or wine pairings (Javascript)
+- [x] Cheeseboard Generator that creates Cheese Board based off primary cheese provided by the user (Javascript)
 - [ ] Create corresponding cheeseboard pairings (Javascript)
 - [ ] Convert selector/generator/filter script from Vanilla Javascript to React, Angular, and Node with Typescript
  
