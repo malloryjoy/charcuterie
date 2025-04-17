@@ -537,6 +537,37 @@ const gouda = new Cheeseboard(
     hasWine = true
 );
 
+const gruyere = new Cheeseboard(
+    bigCheese = "Gruyére",
+    cheeseFlavor = "Rich, creamy, salty, caramel",
+    cheeseTexture = "Firm/Hard",
+    cheeseInfo = "One of the finest Alpine cheeses, Gruyére is a Swiss cheese without any holes (or \"eyes\"). With a fantastic meltability, Gruyére is ideal for fondue and French Onion soup!",
+    biscuitName = "Whole Grain Crackers or Sourdough",
+    biscuitInfo = "A hearty whole-grain cracker adds a sweeter flavor that matches the saltiness and caramel flavors of Gruyére. Meanwhile, Sourdough's chew and tangy flavor complements the firm nature of Gruyére as well as the nutty notes in the flavor!",
+    spreadName = "Caramelized Onion Jam or Honey",
+    spreadInfo = "French Onion Soup is a natural pairing with Gruyére, so it should come as no surprise that a spread made of jammy sweet onion is a phenomenal pairing, too! For a sweeter indulgence, a honey drizzle is a perfect touch, and a truffle or rosemary-infused honey adds a touch of elegance!",
+    meatName = "Prosciutto, Spicy Soppressata or Pepper Salami",
+    meatInfo = "Salty, delicate prosciutto offers a great complement to the nutty flavors of Gruyére! The heat of Soppressata cuts through the richness of Gruyére, while the extra seasoning from a peppery Salami adds a great complement to Gruyére's flavors.",
+    fruitName = "Apples or Cherries",
+    fruitInfo = "A crisp apple like Honeycrisp, Pink Lady, or Granny Smith is sweet with a bit of tart, which complements the salty, nutty Gruyére without overwhelming the other flavors on your board. Cherries are also sweet and tart, but with an elegant rich depth!",
+    compCheese1 = "Taleggio",
+    compCheese2 = "Sharp Cheddar",
+    compCheeseInfo = "Taleggio is softer in texture than Gruyére, but just as creamy! It's an all around milder cheese than Gruyére, with its funkier notes singing with the meaty and luscious sweet flavors on your board. A Sharp Cheddar is firmer than Gruyére, and offers a bold tang that will be a beautiful counterbalance to all the flavors and textures!",
+    saltyOptions = "Olives and Cornichons",
+    saltyInfo = "Castelvetrano Olives are mildly briny and majorly buttery, making it an ideal pairing for the creamy Taleggio, the nutty Gruyére, and the Sharp Cheddar. Cornichons are basically tiny pickles, and are briny enough to cut through the rich flavors of your cheeses, meats, and fruit accompaniments.",
+    sweetName = "Salted Dark chocolate, Maple candy, Candied Orange Peel",
+    sweetInfo = "Dark chocolate + salt = an ideal pairing for Gruyére and sharp Cheddar. Make it a dark chocolate bark with a rich fruit or a nutty flavor, and it will make a beautiful match for Taleggio! Maple candy adds a sweet depth that matches the nutty flavors of Cheddar, creamy Tallegio, and caramelly Gruyére! For a truly magical pairing, a candied orange peel adds a fantastic sweetness to Taleggio, while counterbalancing the sharpness of the Cheddar and the sweeter notes of Gruyére.",
+    wineName = "Prosecco, Riesling, Pinot Noir, Zinfandel,",
+    wineInfo = "For these cheeses, drier white wines are your best bet! An Off-Dry Riesling provides a gentle sweetness and an acidity that cuts through the strong flavors on your board. Prosecco accomplishes this too, and provides bubbles as a delightful palate cleanser! For red wine pairings, Pinot Noir has an earthy juiciness that pairs up beautifully with Gruyère and Taleggio, while counterbalancing the Sharp Cheddar. Zinfandel is a richer red, but doesn't overwhelm any of the flavors of your cheeses or accoutrements!",
+    knife1 = "Narrow plane knife",
+    knife2 = "Open Blade knife",
+    knife1cheese = "Gruyère and Sharp Cheddar",
+    knife2cheese = "Taleggio",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
 const havarti = new Cheeseboard(
     bigCheese = "Havarti",
     cheeseFlavor = "Creamy, mild, buttery",
