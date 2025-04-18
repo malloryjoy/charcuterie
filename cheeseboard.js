@@ -599,6 +599,37 @@ const havarti = new Cheeseboard(
     hasWine = true
 );
 
+const jarlsberg = new Cheeseboard(
+    bigCheese = "Jarlsberg",
+    cheeseFlavor = "Mild, buttery, softly nutty and sweet",
+    cheeseTexture = "Semi firm",
+    cheeseInfo = "Though classified as a \"Swiss\" cheese, Jarlsberg originates from Norway, not Switzerland! Like Gruyére, the flavor is somewhat sweet and nutty, and has a quality meltability, making it ideal for Grilled Cheese and Fondue!",
+    biscuitName = "Pumpernickel bread or butter crackers",
+    biscuitInfo = "The slightly sweet and nutty flavor of Pumpernickel makes it a beautiful match for Jarlsberg. For a more neutral palate, a butter cracker (like a classic Ritz!) enhances the richness of the Jarlsberg, giving it a true moment in the spotlight!",
+    spreadName = "Dijon Mustard or Apple Butter",
+    spreadInfo = "For a sophisticated palate, Dijon Mustard has great bite that acts as a great counterbalance against the \"mellow yellow\" Jarlsberg! For a sweeter touch, apple butter has a warm sweetness that elevates the rich, inherent buttery flavors of Jarlsberg.",
+    meatName = "Genoa Salami, Soppressata or Black Forest Ham",
+    meatInfo = "A salami provides fat and tang, elevating the saltiness of the flavors while also adding a cutting contrast to the sweeter notes. A spicy Soppressata will overwhelm, but a mild and sweet variant is rich and offers a great complexity! Meanwhile, Black Forest Ham provides a smoky and lightly sweet flavor that makes it a classic Jarlsberg pairing!",
+    fruitName = "Strawberries and Figs",
+    fruitInfo = "Strawberries are bright with a bit of tartness. It pops against the creamy nuttiness of Jarlsberg! Figs, either dried or fresh, are earthy and honey sweet, just like Jarlsberg!",
+    compCheese1 = "Fontina",
+    compCheese2 = "Aged Gouda",
+    compCheeseInfo = "Fontina is a semi-soft cheese with a similar flavor profile to Jarlsberg. Aged Gouda is much more intense in terms of flavor and texture, while still being rich enough without overwhelming any of the other flavors on the board!",
+    saltyOptions = "Olives and Cornichons",
+    saltyInfo = "Castelvetrano Olives are mildly briny and majorly buttery, making it an ideal pairing for the milder cheeses, while a roasted garlic stuffed olive is a bolder flavor that adds a counterbalance to Aged Gouda! Cornichons are basically tiny pickles, and are briny enough to cut through the rich flavors of your cheeses and meats.",
+    sweetName = "Sea Salt Chocolate bark, Honeycomb, Fruit Gummies",
+    sweetInfo = "A salted chocolate bark elevates all three cheeses and provides a good crunch! For another good crunch, honeycomb's rich sweetness is a beautiful match with the sweeter notes of the cheeses. A berry or fig flavored fruit jelly offers a brighter sweetness to contrast the savory cheeses.",
+    wineName = "Prosecco, Riesling, Pinot Noir, Gamay,",
+    wineInfo = "For these cheeses, sweeter white wines are your best bet! An Off-Dry Riesling provides a gentle sweetness and an acidity that cuts through the salty flavors on your board. Prosecco accomplishes this too, and provides bubbles as a delightful palate cleanser! For red wine pairings, Pinot Noir and Gamay have earthy and fruity juiciness that is a perfect match for rich and nutty Fontina and Aged Gouda, while also complementing the sweetness of the Jarlsberg!",
+    knife1 = "Narrow plane knife",
+    knife2 = "Skeleton Knife",
+    knife1cheese = "Jarlsberg and Aged Gouda",
+    knife2cheese = "Fontina",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
