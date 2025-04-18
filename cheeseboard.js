@@ -630,6 +630,37 @@ const jarlsberg = new Cheeseboard(
     hasWine = true
 );
 
+const manchego = new Cheeseboard(
+    bigCheese = "Manchego",
+    cheeseFlavor = "Savory, rich, tangy",
+    cheeseTexture = "Semi hard, crumbly",
+    cheeseInfo = "Hola from Spain! Manchego hails from La Mancha range of Spain, which literary fans will recognize as the land from \"Don Quixote\". A rich cheese with a salty finish, Manchego melts beautifully and is a staple in Spanish cuisine!",
+    biscuitName = "Water Crackers or French Baguette",
+    biscuitInfo = "A thin, neutral cracker gives the flavors of Manchego a chance to shine! For a more intentional pairing, a crusty baguette has a chewy interior that provides a perfect contrast to the smooth texture of Manchego.",
+    spreadName = "Olive Tampenade or Fig Jam",
+    spreadInfo = "Tapenade is a savory, salty spread made from olives! It is a beautiful complement to the buttery, rich Manchego. Fig Jam is a sweeter option that enhances the nutty flavors of the cheese.",
+    meatName = "Serrano Ham, Chorizo, Salchichón",
+    meatInfo = "A Spanish cheese calls for Spanish meats! Serrano ham is a salty, dry-cured meat that brings out the tangier notes of Manchego. A Spanish-style chorizo offers fragrant notes with a kick that provide an incredible counterbalance to the smooth nuttiness of Manchego. For guests who like salami without the spice, Salchichón is a Spanish sausage that still provides a strong, salty, fatty flavor!",
+    fruitName = "Apples and Figs",
+    fruitInfo = "A crisp, slightly sweet apple like a Honeycrisp or a Fuji, is a beautiful balance for the creamy cheese and salty meats. Meanwhile, fresh or dried figs are super sweet and pair beautifully with Manchego. A drizzle of honey will take slices of apples or figs to a whole new level!",
+    compCheese1 = "Fontina",
+    compCheese2 = "Boursin",
+    compCheeseInfo = "Fontina is a semi-soft cheese with a buttery, mild flavor, while having a tang similar to Manchego. Boursin is a spreadable, herby cheese that provides a great contrast to the firmness of Manchego!",
+    saltyOptions = "Marcona Almonds and Castelvetrano Olives",
+    saltyInfo = "Marcona Almonds are a classic pairing for the Spanish Manchego! Marcona Almonds also offer a great complement to the herby Boursin and the nutty smoothness of Fontina. Castelvetrano Olives are mildly briny and majorly buttery, making a perfect texture contrast to Boursin, elevating the earthier notes in Fontina, and complementing the richer flavors of Manchego.",
+    sweetName = "Honeycomb, Dark chocolate cherries, Fruit tarts",
+    sweetInfo = "Honeycomb is salty sweet and provides a great crunch, making for a fun texture contrast with all three cheeses without creating a flavor challenge! Dark chocolate cherries offer a great rich depth, while also providing a fruity zing that harmonizes with all three cheeses. To really focus in on fruity sweetness, a fruit tart made with pear or citrus adds brightness and crispiness while perfectly cutting the richer flavors of the board.",
+    wineName = "Chardonnay, Viognier, Cava, Pinot Noir,",
+    wineInfo = "A dry, buttery Chardonnay will complement the rich and creamy cheeeses while contrasting counterbalancing the nutty and salty Manchego. Viognier is a more powerful white wine in terms of fruity notes, but it has a creamier mouthfeel that plays well with Fontina and Boursin without overwhelming the Manchego. Being a Spanish cheese, Manchego sings with Cava, a sparkling Spanish wine that will act as a bright palate cleanser for each bite. For a red wine, Pinot Noir is your best bet, with a sweetness and balanced acidity that complements the creamy Fontina and Boursin while counterbalancing the savoury rich flavors of the Manchego.",
+    knife1 = "Skeleton Knife",
+    knife2 = "Heart Knife",
+    knife1cheese = "Fontina and Boursin",
+    knife2cheese = "Manchego",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
