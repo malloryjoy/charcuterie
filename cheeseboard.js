@@ -661,6 +661,37 @@ const manchego = new Cheeseboard(
     hasWine = true
 );
 
+const montereyJack = new Cheeseboard(
+    bigCheese = "Monterey Jack",
+    cheeseFlavor = "Mild, slightly sweet",
+    cheeseTexture = "Semi hard, creamy",
+    cheeseInfo = "Considered a remnant of Spanish rule, Monterey Jack is a variant of Farmer's Cheese from the central coast of California. Monterey Jack is often combined with Colby cheese to create a Marbled \"Colby Jack\", or infused with peppers to make (you guessed it) \"Pepper Jack\" cheese!",
+    biscuitName = "Wheat Crackers or French Baguette",
+    biscuitInfo = "An earthy, hearty crunch makes Wheat Crackers a great palate for Monterey Jack! Toasted French Baguette is another good option, for a plainer taste but a similar crunch while providing great potential for a stack of charcuterie!",
+    spreadName = "Red Pepper Jelly or Fig Jam",
+    spreadInfo = "Monterey Jack loves a good kick! Red Pepper Jelly provides a bit of heat without being overly spicy. For those who find even the gentlest of kicks a bit much, Fig Jam is an earthy sweet spread that provides a hearty flavor that contrasts well with the mildness of your cheese.",
+    meatName = "Genoa Salami, Prosciutto, Black Forest Ham",
+    meatInfo = "Genoa Salami is a milder meat choice that provides a bit of tang and hearty fat. Prosciutto is a lighter meat choice that will provide a more delicate touch while still providing that fatty meat flavor. For true harmony, Black Forest Ham is smoky and a bit sweet, tying each of your flavors together beautifully!",
+    fruitName = "Strawberries and Plums",
+    fruitInfo = "A bright, acidic fruit like Strawberries provides a great contrast to the Monterey Jack cheese. Meanwhile, plums are juicy, tart and sweet, cutting through the salt of the meats and complementing the cheese!",
+    compCheese1 = "Brie",
+    compCheese2 = "Gruyère",
+    compCheeseInfo = "Take your charcuterie game to the next level with a DOUBLE CREAM Brie. It differs from regular Brie by offering a higher fat content from butter, making it extra luxurious and melt-in-your-mouth buttery rich. This makes it a great pairing with your Monterey Jack, providing a softer texture that elevates the other flavors on your board. Gruyère is another firm cheese, but offers while adding an elegant finish. Gruyère is another firmer cheese like Monterey Jack, but adds a more savoury and complex flavor!",
+    saltyOptions = "Marcona Almonds and Castelvetrano Olives",
+    saltyInfo = "Marcona Almonds offer a great crunch while providing a brilliant Mediterranean vibe to your board! Castelvetrano Olives are mildly briny and majorly buttery, making a perfect match for your creamy Brie, nutty Gruyère, and mellow Monterey Jack.",
+    sweetName = "Candied Ginger, Sea Salt Dark Chocolate Squares, Shortbread cookies",
+    sweetInfo = "If you like a bit of a challenge in your dessert, the kick of Candied Ginger offers a spicy zing that will take the flavors of your cheese to the next level without overwhelming them. For a chocolate lover, Dark Chocolate with a touch of sea salt plays on the richer flavors of your board, with the saltiness bridging the gap between the savoury notes of your cheese! For a calmer palate, Shortbread Cookies are rich and sweet, with just enough crunch to keep things fresh!",
+    wineName = "Sauvignon Blanc, Viognier, Prosecco, Pinot Noir,",
+    wineInfo = "A bright, dry white like Sauvignon Blanc will contrast the richness of the cheeses while complementing the flavors. Viognier provides a fruitier profile, enhancing the creaminess and nuttiness of Gruyère and Brie while also elevating the milder flavors of Monterey Jack. For a sparkling option, Prosecco is a drier option that cleanses the palate! If you're a red wine fan, Pinot Noir offers a sweet fruitiness that is a heavenly match for the mild Monterey, the creamy Brie, and the nutty Gruyère. ",
+    knife1 = "Narrow Plane Knife",
+    knife2 = "Pronged Knife",
+    knife1cheese = "Monterey Jack and Gruyère",
+    knife2cheese = "Brie",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
