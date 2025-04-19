@@ -754,6 +754,37 @@ const provolone = new Cheeseboard(
     hasWine = true
 );
 
+const roquefort = new Cheeseboard(
+    bigCheese = "Roquefort",
+    cheeseFlavor = "Tangy, pungent, sharp",
+    cheeseTexture = "Semi-Hard, Crumbly yet creamy",
+    cheeseInfo = "Bonjour! As a French \"Bleu\" cheese, Roquefort has a legendary story: a young Frenchman was eating a classic cheese when he spotted a beautiful woman. He ran to meet her, abandoning his meal. He returned a few months later to find his cheese had transformed with mold, creating the cheese we now recognize as Roquefort!",
+    biscuitName = "Rye Bread or Water Crackers",
+    biscuitInfo = "Rye Bread offers a hearty depth and a slight tang that complements the bold flavors of Roquefort. Water Crackers provide a great crunch that contrasts beautifully with Roquefort's creaminess!",
+    spreadName = "Red Onion Marmalade or Honey",
+    spreadInfo = "Red Onion Marmalade offers a sweet and tangy flavor that contrasts the salty pungence of Roquefort. For a true sweet contrast against Roquefort, a honey drizzle goes a long way!",
+    meatName = "Prosciutto, Soppressata, Chorizo",
+    meatInfo = "Prosciutto is a salty, smooth meat that pairs beautifully with a creamy cheese like Roquefort! Soppressata is a spicier meat that provides a great counterbalance to the strong Roquefort. Chorizo, meanwhile provides a great smoky flavor that will be a perfect kick against Roquefort!",
+    fruitName = "Berries or Apricots",
+    fruitInfo = "Blackberries or Raspberries offer a tangy sweetness and a fresh zing! Apricots are tart and chewy, either dried or fresh, and provide a great balance against the richness of Roquefort!",
+    compCheese1 = "Brie",
+    compCheese2 = "Comté",
+    compCheeseInfo = "Brie is a softer, rich cheese with a mild and buttery flavor! Comté is a cheese with a similar texture but a beautiful nutty flavor that contrasts the strong flavors of Roquefort without overpowering it.",
+    saltyOptions = "Castelvetrano Olives or Cornichons",
+    saltyInfo = "Buttery, mild Castelvetrano olives provide a briny crispness that will pair wonderfully with all three cheeses. Cornichons are tiny pickles that provide that briny flavor while also cutting through the richer notes.",
+    sweetName = "Sea Salt Dark Chocolate Truffles, Fig Newtons, Fruit Gummies",
+    sweetInfo = "Dark Chocolate Truffles are ideal, with a beautiful contrasting depth against the tang of Roquefort and a balance to Brie and Comté's richness. A sprinkle of sea salt just takes everything to the next level! Fig Newtons are a nostalgic cookie with a playful texture and a sweetness that provides a counterbalance to a strong Roquefort and the richness of Brie and Comté. Fruit Gummies are another nostalgic choice that provide a bright sweetness against the sharpness of Roquefort, creamy Brie, and nutty Comté. Be sure to choose a bold flavor though, like sour cherry or tangerine!",
+    wineName = "Sauturnes, Chardonnay, Pinot Noir, Port",
+    wineInfo = "Dessert wines await with the cheeses on this board! Sauturnes and Port are two incredible wines (the former white and the latter red) that complement the flavors of your cheeses and providing a contrast through the richness! Chardonnay is a buttery wine that matches the richness of Brie, enhancing the nuttiness of Comté, and matches up the strength of Roquefort. Pinot Noir is a classic red match for most cheeses, with bright and fruity flavors that will provide a sweeter delivery than Chardonnay, while still pairing up with each cheese in a similar fashion!",
+    knife1 = "Skeleton Knife",
+    knife2 = "Heart Knife",
+    knife1cheese = "Fontina and Mozzarella",
+    knife2cheese = "Provolone",
+    hasNuts = false,
+    hasMeat = true,
+    hasWine = true
+);
+
 
 
 const stilton = new Cheeseboard(
