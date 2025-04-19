@@ -723,6 +723,38 @@ const parmesan = new Cheeseboard(
     hasWine = true
 );
 
+const provolone = new Cheeseboard(
+    bigCheese = "Provolone",
+    cheeseFlavor = "Rich, nutty, savoury",
+    cheeseTexture = "Hard, granular",
+    cheeseInfo = "Considered the \"King of Cheeses\", Parmesan (or Parmegianno Reggiano) is a sharp cheese that is served shaved or grated over pasta dishes, or just eaten on its own! Parmesan is a nutritional goldmine, as a source of Vitamins A and D, iron, and potassium.",
+    biscuitName = "Rosemary Crackers or French Baguette",
+    biscuitInfo = "A fragrant cracker makes for a pretty contrast with the saltiness of Parmesan. Meanwhile, toasted baguette slices are simple with a good crunch, with a mild flavor that lets the Parmesan shine.",
+    spreadName = "Fig or Tomato Jam",
+    spreadInfo = "Sweet and slightly earthy, a fig jam is a great way to highlight the nuttiness of the Parmesan. Tomato Jam is a saltier, savoury choice that brings a classic Italian flavor.",
+    meatName = "Soppressata, Prosciutto, Salami",
+    meatInfo = "Either a mild or spicy Soppressata offers a bold flavor or a touch of heat that holds up well with the sharpness of Parmesan! Prosciutto is a lighter option that provides a beautiful, more delicate flavor to match the Parmesan. Fennel Salami specifically provides a fun, herbal twist that will not only match the salty nuttiness of Parmesan but also make a complex flavor profile with the other flavors on the board.",
+    fruitName = "Pears and Plums",
+    fruitInfo = "A bright, crisp fruit like a Pear provides a stunning flavor profile with the Parmesan. Plums are a softer fruit that provides a new texture and a tart flavor against the Parmesan!",
+    compCheese1 = "Brie",
+    compCheese2 = "Taleggio",
+    compCheeseInfo = "Brie is a softer, rich cheese that provides a good contrast to the strong flavors of Parmesan! Taleggio is another soft cheese, but offers a flavor that is both strong and contrasts the strong flavor of Parmesan!",
+    saltyOptions = "Pistachios and Castelvetrano Olives",
+    saltyInfo = "For a colorful and salty-sweet pop of flavor, Pistachios go great with your cheeses! Castelvetrano olives are rich and buttery, making for a briny zing that will match the Brie and Taleggio without overpowering the Parmesan.",
+    sweetName = "Salted Caramels, Dark Chocolate Covered Cherries, Butter cookies",
+    sweetInfo = "Salted caramels provide a rich sweetness that melts with Brie, contrasts the funk of Taleggio, and echoes the nutty flavors of Parmesan. Dark Chocolate Cherries provide that luxury chocolate flavor while the cherries provide a fruity flavor to contrast the salty sharpness of your cheeses. For a simpler palate, butter cookies are sweet and crunchy enough to make an impact without overpowering the intense flavors of the other flavors on your board.",
+    wineName = "Sauvignon Blanc, Prosecco, Pinot Noir, Gamay",
+    wineInfo = "A bright, dry white like Sauvignon Blanc will contrast the richness of the cheeses while complementing the flavors. For a sparkling option, Prosecco is a drier option that cleanses the palate! If you're a red wine fan, Pinot Noir offers a sweet fruitiness complements the softer cheeses and cuts through the sharpness of Parmesan, without overwhelming each cheese. Gamay is a brighter, fresher red that pairs well with Brie and Taleggio but still has a good structure against the salty Parmesan.",
+    knife1 = "Skeleton Knife",
+    knife2 = "Cheese Fork",
+    knife1cheese = "Taleggio and Brie",
+    knife2cheese = "Parmesan",
+    hasNuts = true,
+    hasMeat = true,
+    hasWine = true
+);
+
+
 
 const stilton = new Cheeseboard(
     bigCheese = "Stilton",
