@@ -312,14 +312,14 @@ input[type=submit]:hover {
 
 /**********CHARCUTERIE BOARD GENERATOR**********/
 
-.newcheese{
+.newcheese, .chooseJS{
   font-family: "Caprasimo", serif;
   color: #000;
   font-size: 12px;
   text-decoration: none;
 }
 
-.newcheese a{
+.newcheese a, .chooseJS{
   text-decoration: none !important;
 }
 
