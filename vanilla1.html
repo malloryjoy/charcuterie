@@ -6,7 +6,7 @@
        <meta name="description" content="" />
        <meta name="author" content="" />
        <title>Charcuterie Board Generator - Mallory Joy Development</title>
-       <link rel="icon" type="image/x-icon" href="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" />
+       <link rel="icon" type="image/svg+xml" href="/logo.png" />
       
        <!-- Google fonts-->
        <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,36 +17,69 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <!-- Core theme CSS (includes Bootstrap)-->
        <link href="./charcuterie.css" rel="stylesheet" id="stylin" type="text/css">
-      
-
+       
+       <script type="text/javascript" src="/cheeseboard.js"></script>
+        
 
    </head>
   
    <body>
    
-           <nav id="topNav">
-               <ul class="siteNav">
-                   <li class="navItem"><a href="/index.html" aria-label="return to portfolio"><i class="fa-solid fa-arrow-left"></i></a> </li>
-               </ul>
-          
-           </nav>
+    <nav id="topNav" class="goback">
+        <ul class="siteNav">
+            <li class="navItem"><a href="/index.html" aria-label="Return to portfolio"><i class="fa-solid fa-arrow-left"></i></a><span class="chooseJS">Return to Landing</span>  </li>
+        </ul>
+   
+    </nav>
           
 
            <section id= "generator-maincontent">
             <section id="searchbox">
+                <form id="cheeseSearch">
                 <label class="searchbar" for="cheese">First, tell us the cheese you want to use.</label><br />
-                <input type="text" id="cheese" name="cheese" required minlength="4" maxlength="100" size="39em" />
-            </section>
-            <section id="filter"><span id="labelstyle"><h3 style="text-align: left; font-size: 1.25em;">And Make It...</h3></span>
-                <form action ="/filtercharcuterieboard">
-                  <label for="vegetarian"><input id="vegetarian" type="checkbox" class="boardfilter"> Vegetarian</label>
-                  <label for="nutfree"><input id="nutfree" type="checkbox" class="boardfilter"> Nut-Free</label>
-                  <label for="zeroproof"><input id="zeroproof" type="checkbox" class="boardfilter"> Zero-Proof</label>
-                </form>
-            </section>
-            <p style="text-align: center;"><button class="cbbuttons" id="startmeup" role ="button"><a href="charcuterieboard.html" aria-label="vanilla"><span class="front">Cheese it!</span></a></button></p> 
+                <div class="dropdown">
+                    <select id="cheeseOptions" name="cheeseOptions">
+                        <option value="default" disabled selected>Select Your Cheese</option>
+                        <option value="american">American</option>
+                        <option value="asiago">Asiago</option>
+                        <option value="boursin">Boursin</option>
+                        <option value="brie">Brie</option>
+                        <option value="camembert">Camembert</option>
+                        <option value="cheddar">Cheddar</option>
+                        <option value="chévre">Chévre</option>
+                        <option value="colby">Colby</option>
+                        <option value="comté">Comté</option>
+                        <option value="edam">Edam</option>
+                        <option value="feta">Feta</option>
+                        <option value="fontina">Fontina</option>
+                        <option value="gorgonzola">Gorgonzola</option>
+                        <option value="gouda">Gouda</option>
+                        <option value="gruyere">Gruyére</option>
+                        <option value="havarti">Havarti</option>
+                        <option value="jarlsberg">Jarlsberg</option>
+                        <option value="manchego">Manchego</option>
+                        <option value="montereyJack">Monterey Jack</option>
+                        <option value="parmesan">Parmesan</option>
+                        <option value="provolone">Provolone</option>
+                        <option value="roquefort">Roquefort</option>
+                        <option value="stilton">Stilton</option>
+                        <option value="swiss">Swiss/Emmental</option>
+                        <option value="wensleydale">Wensleydale</option>
+                    </select>
+                </section>
 
-           </section>
+                <section id="filter">
+                <h3 style="text-align: left; font-size: 1.25em; color:#fff">And Make It...</h3><br />
+                <input type="checkbox" id="filter1" name="filter1" value="vegetarian"><label for="filter1"> Vegetarian</label>
+                <input type="checkbox" id="filter2" name="filter2" value="nutfree"><label for="filter2"> Nut-Free</label>
+                <input type="checkbox" id="filter3" name="filter3" value="zeroproof"><label for="filter3"> Zero-Proof</label>
+                </section>
+                <p style="text-align: center;"><a href="/charcuterieboard.html"><input  type="submit" value="CHEESE IT!" id="startmeup" class="front cbbuttons "/></a></p> 
+            </div>   
+            </form>
+            </section>
+        </section>   
+           
 
            <footer role="contentinfo" id="footer">
           
@@ -67,4 +100,162 @@
                 </p>
           
         </footer>
+
+        <script>
+
+            //////////////////
+            const form = document.getElementById('cheeseSearch');
+
+            form.addEventListener('submit', (evt) => {
+                evt.preventDefault();
+                const chosenCheese = document.getElementById('cheeseOptions').value;
+                const vegFilter = document.getElementById('filter1');
+                let vegetarian;
+                let noMeat = vegFilter.checked;
+                if (noMeat){
+                    vegetarian = true;
+                } else{
+                    vegetarian = false;
+                }
+
+                const nutFilter = document.getElementById('filter2');
+                let nutFree;
+                let noNuts = nutFilter.checked;
+                if (noNuts){
+                    nutFree = true;
+                }else{
+                    nutFree = false;
+                }
+
+                const alcFilter = document.getElementById('filter3');
+                let zeroProof;
+                let noSpirits = alcFilter.checked;
+                if (noSpirits){
+                    zeroProof = true;
+                }else{
+                    zeroProof = false;
+                }
+
+
+    
+                const cheeseData = {
+                bigCheese: chosenCheese,
+                isVegetarian: vegetarian,
+                nutFreeBoard: nutFree,
+                noWine: zeroProof,
+
+                };
+
+                const submittedData = cheeseData;
+
+                console.log(submittedData);
+
+
+                let theCheese = cheeseData.bigCheese;
+
+                console.log("You have selected " + theCheese + ".");
+               
+               
+                let myBoard;
+
+
+                    if (theCheese === "american"){
+                       myBoard = american;         
+                    }  else if (theCheese === "asiago"){
+                        myBoard = asiago;
+                    } else if (theCheese ==="boursin"){
+                        myBoard = boursin;
+                    } else if (theCheese ==="brie"){
+                        myBoard = brie;
+                    } else if (theCheese === "camembert"){
+                        myBoard = camembert;
+                    } else if (theCheese === "cheddar"){
+                        myBoard = cheddar;
+                    } else if (theCheese === "chévre"){
+                        myBoard = chévre;
+                    } else if (theCheese ==="colby"){
+                        myBoard = colby;
+                    } else if (theCheese ==="comté"){
+                        myBoard = comté;
+                    } else if (theCheese ==="edam"){
+                        myBoard = edam;
+                    } else if (theCheese ==="feta"){
+                        myBoard = feta;
+                    } else if (theCheese ==="fontina"){
+                        myBoard = fontina;
+                    } else if (theCheese === "gorgonzola"){
+                        myBoard = gorgonzola;
+                    } else if (theCheese === "gouda"){
+                        myBoard = gouda;
+                    } else if (theCheese === "gruyere"){
+                        myBoard = gruyere;
+                    } else if (theCheese === "havarti"){
+                        myBoard = havarti;
+                    } else if (theCheese === "jarlsberg"){
+                        myBoard = jarlsberg;
+                    } else if (theCheese === "manchego"){
+                        myBoard = manchego;
+                    } else if (theCheese === "montereyJack"){
+                        myBoard = montereyJack;
+                    } else if (theCheese === "parmesan"){
+                        myBoard = parmesan;
+                    } else if (theCheese === "provolone"){
+                        myBoard = havarti;
+                    } else if (theCheese === "roquefort"){
+                        myBoard = roquefort;
+                    } else if (theCheese === "stilton"){
+                        myBoard = stilton;
+                    } else if (theCheese === "swiss"){
+                        myBoard = swiss;
+                    }else if (theCheese === "wensleydale"){
+                        myBoard = wensleydale;
+                    }  else {
+                        console.log("Oh dear! There is no board associated with your chosen cheese.");
+                        myBoard = false;
+                        
+                    }
+                
+                    
+
+                    if (cheeseData.isVegetarian === true){
+                        myBoard.hasMeat = false;
+                    } else{
+                        myBoard.hasMeat = true;
+                    }
+
+                    if (cheeseData.nutFreeBoard === true){
+                        myBoard.hasNuts = false;
+                    } else{
+                        myBoard.hasNuts = true;
+                    }
+
+                    if (cheeseData.noWine === true){
+                        myBoard.hasWine = false;
+                    } else {
+                        myBoard.hasWine = true;
+                    }
+
+
+                
+
+                console.log(myBoard);
+
+                if (myBoard){
+                        localStorage.setItem("myBoard", JSON.stringify(myBoard));
+                        window.location.href = "/charcuterieboard.html";
+                    } else {
+                        console.log("ERROR. PLEASE TROUBLESHOOT.", cheeseData);
+                    }
+                //window.location.href = "/charcuterieboard.html";
+
+                 
+
+                
+            });
+
+            
+
+        </script>
+
+        
     </body>

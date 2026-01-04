@@ -17,7 +17,7 @@
 /***********UNIVERSAL CONTENT***********/
 body{
    background-image: url("./yellowbackdrop.png");
-
+  background-size: cover;
    
 }
 
@@ -106,7 +106,7 @@ button.cbbuttons {
   button.cbbuttons a{
     text-decoration:none !important;
   }
-  button.cbbuttons {
+  button.cbbuttons{
     touch-action: manipulation;
     font-weight: 600;
     color: #000;
@@ -118,7 +118,7 @@ button.cbbuttons {
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
   }
-  button.cbbuttons::before {
+  button.cbbuttons::before{
     position: absolute;
     content: "";
     width: 100%;
@@ -141,7 +141,7 @@ button.cbbuttons {
     box-shadow: 0 0 0 2px #6a6a6a, 0 0.5em 0 0 #6a6a6a;
     transform: translate3d(0, 0.5em, -1em);
   }*/
-  button.cbbuttons:active {
+  button.cbbuttons:active{
     background: #ffffff;
     transform: translate(0em, 0.75em);
   }
@@ -150,7 +150,7 @@ button.cbbuttons {
     transform: translate3d(0, 0, -1em);
   }
 
-  .front{
+  .front,button input[type=submit]{
     
         font-family: "Black Han Sans", serif;
         font-weight: 400;
@@ -168,16 +168,20 @@ button.cbbuttons {
 
   #searchbox{
     margin: 5% 10%;
-    padding: 2em 1.5em;
-    height:15vh;
+    padding: 2em 1.5em 5em 1.5em;
+    min-height:15vh;
     background-color: rgba(15,0,0,.9);
     border-radius: 25px;
 }
 
-input {
-    margin-top: 1em;
-    
-    border-radius: 5px;
+#cheeseOptions{
+  margin-top: 2em;
+  width: 25em;
+  height: 3em;
+}
+
+option{
+  font-family: "Black Han Sans", serif;
 }
 
 #searchbox input {
@@ -187,9 +191,9 @@ input {
 
 #filter {
   margin: 5% 15%;
-  padding: 1% 2%;
-  height: 20vh;
-  background-color: rgba(15, 0, 0, .9);
+  padding: 2em 1.5em 5em 1.5em;
+  min-height:10vh;
+  background-color: rgba(15,0,0,.9);
   border-radius: 25px;
 }
 fieldset input{
@@ -227,11 +231,117 @@ li.popular-category{list-style: none; display:inline-block; }
   padding-bottom: 14em;
 }
 
+
+input[type=submit] {
+  touch-action: manipulation;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+
+}
+
+input[type=submit] {
+  touch-action: manipulation;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  background: rgb(217,217,217);
+  padding: 1.25em 2em;
+  border: 2px solid #dbdbdb;
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+  
+  border-radius: 0.75em;
+  box-shadow: 0 0 0 2px #6a6a6a, 0 0.625em 0 0 #6a6a6a;
+}
+
+input[type=submit]:active::before {
+  /*box-shadow: 0 0 0 2px #6a6a6a, 0 0 #6a6a6a;*/
+  transform: translate3d(0, 0, -1em);
+  background-color: #fff !important;
+}
+
+
+input[type=submit]:active{
+  background: #dbdbdb;
+  /*transform: translate(0em, 0.75em); */
+}
+
+.front input[type=submit]:active {
+  background: #ffffff;
+  
+}
+
+input[type=submit]::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #6a6a6a;
+  border-radius: 0.75em;
+  box-shadow: 0 0 0 2px #6a6a6a, 0 0.625em 0 0 #6a6a6a;
+  transform: translate3d(0, 0.15em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+} 
+input[type=submit]:hover {
+  background: rgb(255,255,255);
+  transform: translate(0, 0.25em);
+}
+
+.front input[type=submit]:active::before{
+  background: #ffffff;
+  transform: translate(0em, 0.75em);
+}
+
+.cbbuttons .front input[type=submit]:active{
+  background: #dbdbdb;
+  transform: translate(0em, 0.75em); 
+}
+
+
+
+
 /**********CHARCUTERIE BOARD GENERATOR**********/
+
+.newcheese, .chooseJS{
+  font-family: "Caprasimo", serif;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.newcheese a, .chooseJS{
+  text-decoration: none !important;
+}
+
+.goback .navItem {
+  width: 20em;
+  background-color: transparent !important;
+}
+
+.goback .navItem i {
+    width: 1em;
+    height: 1em;
+    color: #fff;
+    list-style-type: none;
+    background-color: #6a6a6a;
+    border-radius: 25px;
+    margin-right: 1em;
+}
+
 
 #charcuterie-main{
   display: flex;
-  margin: 5% 15% 10% 15%;
+  margin: 5% 15%;
   
 }
 
@@ -315,6 +425,18 @@ color: #fff !important;
   background-color: #ccc; 
 }
 
+.accordion:after {
+  content: '\032C'; 
+  font-size: 1.5em;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2038'; 
+}
+
 .panel {
   padding: 0 18px;
   display: none;
@@ -322,7 +444,47 @@ color: #fff !important;
   overflow: hidden;
 }
 
-  @media only screen and (max-width: 600px) {
+#badge{
+  font-family: "Caprasimo", serif;
+  font-size: .75em;
+  text-align: center;
+  color: #fff !important; 
+  margin-top: -1em;
+  margin-bottom: 1em;
+  
+}
+
+.basicFont{
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+#permafacts{
+  margin: auto 15% 5% 15%;
+  padding-top: 2%;
+  padding-left:2%;
+  padding-right: 2%; 
+  padding-bottom: 5%;
+  background-color: rgba(15, 0, 0, .9);
+  border-radius: 25px;
+}
+
+#permafacts h3, #permafacts li{
+  color: #fff;
+}
+
+#permafacts li {
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+#permafacts a{
+  color: #fff !important;
+}
+
+
+/*****************************************/
+/***************MOBILE VIEW***************/
+/*****************************************/
+@media only screen and (max-width: 800px) {
     #frameworkbuttons{
      
       margin: 0 auto;
@@ -347,7 +509,25 @@ color: #fff !important;
       justify-content: space-between;
   }
 
-  
+    #charcuterie-main{
+      display:block;
+      
+}
+    #left, #right{
+      width: 100%;
+    }
+
+    #right{
+      margin: 2%;
+      margin-left: 0 !important;
+    }
+  #footer p {
+    text-align: center !important;
+  }
+
+  #mobileSocials{
+    text-align: center !important;
+  }
   
   
   }

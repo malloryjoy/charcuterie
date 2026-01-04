@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/malloryjoy/charcuterie">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Charcuterie Board Generator</h3>
@@ -64,7 +64,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#notes">Notes</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -85,11 +85,12 @@ This project takes a provided type of cheese and creates a diverse charcuterie b
 
 ### Built With
 
-* [![Javascript][Javascript.io]][Javascript-url]
+* [![Javascript][Javascript.js]][Javascript-url]
 * [![Typescript][Typescript.js]][Typescript-url]
 * [![React][React.js]][React-url]
 * [![Angular][Angular.io]][Angular-url]
-* [![CSS][CSS]][Bootstrap-url]
+* [![HTML][HTML.io]][HTML-url]
+* [![CSS][CSS.io]][CSS-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,10 +112,17 @@ This project was created with Javascript, available with classic Vanilla and thr
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Create Basic Landing Pages (HTML/CSS)
+    - [x] Welcome Page to choose Javascript framework 
+    - [x] Page to choose Primary cheese and necessary filters 
+    - [x] Page to display charcuterie board
+- [x] "Form" to accept primary cheese provided by user (HTML)
+- [x] Filter Feature for Form that creates cheeseboards that do not include meat, nuts, or wine pairings (Javascript)
+- [x] Cheeseboard Generator that creates Cheese Board based off primary cheese provided by the user (Javascript)
+- [ ] Create corresponding cheeseboard pairings (Javascript)
+- [ ] Convert selector/generator/filter script from Vanilla Javascript to React, Angular, and Node with Typescript
+ 
+
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -124,10 +132,10 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 
-<!-- LICENSE -->
-## License
+<!-- NOTES -->
+## Notes
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+As is, this project is a great start for any gourmand! That said, potential growth for this project could come from a separate "visualizer" section that includes presentation ideas (fanning bread slices, charcuterie flowers, etc.) as well as a brief shopping window for cheese boards and cheese knife sets. In addition, I've created filters for wine-free, nut-free, and meat-free charcuterie boards, but I could also provide a "gluten free" option that eliminates the bread/cracker component! Lastly, I purposefully did not feature bacon jam as a spread/condiment option to better ease the "vegetarian" filter. An advanced filter feature that can eliminate individual items in an option would be a unique way to elevate the custom experience of this generator! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +146,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 Your Name - [@malloryjoycreates](https://instagram.com/malloryjoycreates) - malloryjoy13@gmail.com
 
-Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.com/malloryjoy/charcuterieboard)
+Project Link: [GitHub](https://github.com/malloryjoy/charcuterie)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,8 +172,8 @@ Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.co
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/malloryjoy/
-[product-screenshot]: images/screenshot.png
-[Javascript.js]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+[product-screenshot]: screenshot.png
+[Javascript.js]: https://img.shields.io/badge/javascript-grey?logo=javascript
 [Javascript-url]: https://www.javascript.com/
 [Typescript.js]: https://img.shields.io/badge/typescript.js-000000?style=for-the-badge&logo=typescriptdotjs&logoColor=white
 [Typescript-url]: https://www.typescriptlang.org/
@@ -173,6 +181,8 @@ Project Link: [https://github.com/malloryjoy/charcuterieboard](https://github.co
 [React-url]: https://reactjs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
+[HTML.io]: https://img.shields.io/badge/HTML-1f75fe
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[CSS.io]: https://img.shields.io/badge/CSS-991ae8?style=for-the-badge&logo=CSS&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 
