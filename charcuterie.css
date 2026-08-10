@@ -513,6 +513,11 @@ color: #fff !important;
       display:block;
       
 }
+    #cheeseOptions{
+      margin-top: 2em;
+      width: 25em;
+      height: 3em;
+}
     #left, #right{
       width: 100%;
     }
