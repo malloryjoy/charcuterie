@@ -528,7 +528,7 @@ color: #fff !important;
 }
 
     h1{
-      font-size: 50%;
+      font-size:3em;
 
 }
 
@@ -556,7 +556,7 @@ color: #fff !important;
   }
 
   #permafacts {
-    margin: auto 10% 5% 10%;
+    margin: auto 10% 5% 10% !important;
     padding-top: 2%;
     padding-left: 0%;
     padding-right: 2%;
