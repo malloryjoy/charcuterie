@@ -527,9 +527,7 @@ color: #fff !important;
       width: 100%;
 }
 
-    #filter label{
-      font-size: .75em !important;
-  }
+    
 
     h1{
       font-size:2em !important;
@@ -545,18 +543,26 @@ color: #fff !important;
       display: block;
       margin: 5% 10%;
       
-    }
+}
 
     #right{
       margin: 2%;
       margin-left: 0 !important;
-    }
+}
   #footer p {
     text-align: center !important;
   }
 
   #mobileSocials{
     text-align: center !important;
+  }
+
+  #filter {
+    display: inline-block;
+    width: 20em;
+  }
+  #filter #checkbox {
+    display:block;
   }
 
   #permafacts {
