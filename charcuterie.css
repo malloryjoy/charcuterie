@@ -527,13 +527,14 @@ color: #fff !important;
       width: 100%;
 }
 
-    #filter input {
+    #filter {
       display: inline-block;
-      
+      width: 60vw;
+
 }
-    #filter label {
-      display: contents;
-}
+  #filter #checkbox {
+    display: block;
+  }
 
     h1{
       font-size:2em !important;
