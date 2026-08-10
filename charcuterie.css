@@ -538,7 +538,7 @@ color: #fff !important;
 }
 
     #charcuterie-main{
-      
+      display: block;
       margin: 5% 10%;
       
     }
