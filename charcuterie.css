@@ -559,9 +559,10 @@ color: #fff !important;
 
   #filter {
     display: inline-block;
-    width: 20em;
+    width: 18em;
+    padding: 2em 1.5em 3em 1.5em;
   }
-  #filter #checkbox {
+  #filter #mycheckbox {
     display:block;
   }
 
