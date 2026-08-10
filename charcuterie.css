@@ -35,7 +35,7 @@ body{
 }
 
 #maincontent{
-    margin: 20% 0 25% 0;
+    margin: 25% 10%;
 }
 
 #generator-maincontent{
@@ -56,13 +56,13 @@ h1{
     /*text-stroke: 10px #6a6a6a; */
     color: #fff;
     text-align: center;
-    font-size: 52px;
+    font-size: 3em;
 
 }
 
 h3{
     text-align: center;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .socialitem,.social-item svg{
@@ -515,7 +515,7 @@ color: #fff !important;
 }
     #cheeseOptions{
       margin-top: 2em;
-      width: 20em;
+      width: 15em;
       height: 3em;
 }
     #left, #right{
