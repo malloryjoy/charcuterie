@@ -485,6 +485,11 @@ color: #fff !important;
 /***************MOBILE VIEW***************/
 /*****************************************/
 @media only screen and (max-width: 800px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
     #frameworkbuttons{
      
       margin: 0 auto;
@@ -523,7 +528,7 @@ color: #fff !important;
 }
 
     h1{
-      font-size: 2em;
+      font-size: 50%;
 
 }
 
@@ -533,7 +538,7 @@ color: #fff !important;
 }
 
     #charcuterie-main{
-      display: flex;
+      
       margin: 5% 10%;
       
     }
